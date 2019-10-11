@@ -12,7 +12,7 @@ Welcome to Big Data for Justice Institute's Documentation!
 
 
 
-Indices and tables
+Indices and Tables
 ==================
 
 * :ref:`genindex`
