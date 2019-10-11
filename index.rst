@@ -11,7 +11,7 @@ Welcome to Big Data for Justice Institute's Documentation!
    :caption: Table of Contents:
    
    introduction
-   :caption: Cleaning Data in Microsoft Excel
+   excel
 
 
 
