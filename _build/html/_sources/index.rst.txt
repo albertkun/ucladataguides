@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to mdhdocs's documentation!
+Welcome to Big Data for Justice Institute's Documentation!
 ===================================
 
 .. toctree::
