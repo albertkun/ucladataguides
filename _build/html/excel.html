@@ -1,0 +1,435 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quick Visual Guide to Cleaning Data in Microsoft Excel &mdash; mdhdocs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Intro" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> mdhdocs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Intro</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Visual Guide to Cleaning Data in Microsoft Excel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-open-csv-files">How to open CSV files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#formulas">Formulas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#if-you-simply-add-the-two-it-might-look-a-little-messy-so-we-should-add-a-space-in-between-columns-by-the-following-formula">If you simply add the two, it might look a little messy, so we should add a space in between columns by the following formula:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sorting">Sorting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filtering">Filtering</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#question-how-many-arrests-were-there-on-january-1st">Question: How many arrests were there on January 1st?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#splitting-content-from-one-cell-into-two-cells">Splitting content from one cell into two cells</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#leading-zeros">Leading Zeros</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#next-guide-joining-data-in-qgis">Next Guide: Joining Data in QGIS</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mdhdocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Quick Visual Guide to Cleaning Data in Microsoft Excel</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/excel.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quick-visual-guide-to-cleaning-data-in-microsoft-excel">
+<h1>Quick Visual Guide to Cleaning Data in Microsoft Excel<a class="headerlink" href="#quick-visual-guide-to-cleaning-data-in-microsoft-excel" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>Note: This tutorial uses Los Angeles Police Department Arrest data
+filtered for the month of January downloaded from Los Angeles Open Data
+portal (see: <a class="reference external" href="https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing">Quick Visual Guide to Visualizing Data on LA Open Data
+Portal</a>)</p>
+</div>
+<div class="section" id="how-to-open-csv-files">
+<h2>How to open CSV files<a class="headerlink" href="#how-to-open-csv-files" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Go to File -&gt; Open</li>
+<li><dl class="first docutils">
+<dt>Select “Text” file</dt>
+<dd><a class="reference internal" href="media/image20.png"><img alt="image0" src="media/image20.png" style="width: 6.5in; height: 2.79167in;" /></a></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Select the “LAPD_arrests_2015_january.csv” file:</dt>
+<dd><a class="reference internal" href="media/image15.png"><img alt="image1" src="media/image15.png" style="width: 5.13021in; height: 3.67434in;" /></a></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Excel always provides a summary of selected information near the</dt>
+<dd>bottom:
+<a class="reference internal" href="media/image23.png"><img alt="image2" src="media/image23.png" style="width: 4.82292in; height: 3.98958in;" /></a></dd>
+</dl>
+</li>
+</ol>
+<p>Before going forward, let’s make sure our data columns are in good
+order:</p>
+<p>ARST_DATE should be a date field, and ARST_TM should be a Time Field.</p>
+<ol class="arabic simple">
+<li>Select the columns:</li>
+</ol>
+<p><a class="reference internal" href="media/image22.png"><img alt="image3" src="media/image22.png" style="width: 6.5in; height: 2.88889in;" /></a></p>
+<p>2. Select dropdown box near the top:
+<a class="reference internal" href="media/image24.png"><img alt="image4" src="media/image24.png" style="width: 6.5in; height: 2.88889in;" /></a></p>
+<ol class="arabic simple" start="3">
+<li>Then choose “Short Date”:</li>
+</ol>
+<p><a class="reference internal" href="media/image17.png"><img alt="image5" src="media/image17.png" style="width: 5.64478in; height: 2.50521in;" /></a></p>
+<ol class="arabic simple" start="4">
+<li>For ARST_TM choose “Time”:</li>
+</ol>
+<p><a class="reference internal" href="media/image26.png"><img alt="image6" src="media/image26.png" style="width: 5.60532in; height: 2.49479in;" /></a></p>
+<p>5.Do the same for BKG_DT and BKG_TM as well.</p>
+</div>
+<div class="section" id="formulas">
+<h2>Formulas<a class="headerlink" href="#formulas" title="Permalink to this headline">¶</a></h2>
+<p>Excel is a spreadsheet program, which means it is made up of rows and
+columns: one giant table. One of the most powerful tools is formulas,
+which means starting a cell with an “=”</p>
+<p>Go ahead and find an empty cell so we can start our formula:</p>
+<p><a class="reference internal" href="media/image12.png"><img alt="image7" src="media/image12.png" style="width: 1.9375in; height: 1.30208in;" /></a></p>
+<p>S2 looks like a good spot.</p>
+<p>The most basic formula we will use is to combine columns together:</p>
+<p>=A1 &amp; B1</p>
+<p>Every Excel formula relies on using the cells of a table in order to
+work. For example A1 is the very first cell in the spreadsheet. If you
+want to combine the contents in the first cell together with the second
+column, then you can use “=A1&amp;B1”</p>
+<p>Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one?</p>
+</div>
+<div class="section" id="if-you-simply-add-the-two-it-might-look-a-little-messy-so-we-should-add-a-space-in-between-columns-by-the-following-formula">
+<h2>If you simply add the two, it might look a little messy, so we should add a space in between columns by the following formula:<a class="headerlink" href="#if-you-simply-add-the-two-it-might-look-a-little-messy-so-we-should-add-a-space-in-between-columns-by-the-following-formula" title="Permalink to this headline">¶</a></h2>
+<p>=A1&amp;“ “&amp;B1</p>
+<p>You will notice that the “ “symbols acts as a seperator. You can go
+ahead and put anything in between those symbols and it will appear in
+between the result.</p>
+<p>Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one with a comma in between?</p>
+</div>
+<div class="section" id="sorting">
+<h2>Sorting<a class="headerlink" href="#sorting" title="Permalink to this headline">¶</a></h2>
+<p>In the top part of the menu you can select “Sort”:</p>
+<p><a class="reference internal" href="media/image18.png"><img alt="image8" src="media/image18.png" style="width: 6.5in; height: 1.76389in;" /></a></p>
+<p>A dropdown arrow will now be shown next to the first row (also known as
+the header)</p>
+<p><a class="reference internal" href="media/image2.png"><img alt="image9" src="media/image2.png" style="width: 6.5in; height: 1.56944in;" /></a></p>
+<p>When clicking it, you can choose to sort the information in different
+ways:</p>
+<p><a class="reference internal" href="media/image4.png"><img alt="image10" src="media/image4.png" style="width: 1.94814in; height: 3.03646in;" /></a></p>
+<p>We will sort the data from highest to lowest arrest date:</p>
+<p><a class="reference internal" href="media/image6.png"><img alt="image11" src="media/image6.png" style="width: 2.75521in; height: 3.67874in;" /></a></p>
+<p>Feel free to explore sorting the data!</p>
+</div>
+<div class="section" id="filtering">
+<h2>Filtering<a class="headerlink" href="#filtering" title="Permalink to this headline">¶</a></h2>
+<p>You can also filter the data by using the Checkboxes or the Filter By
+box below the Sort options:</p>
+<p><a class="reference internal" href="media/image8.png"><img alt="image12" src="media/image8.png" style="width: 2.15104in; height: 2.97414in;" /></a></p>
+<p>Different data types will have different filter options, feel free to
+try it out and answer this question:</p>
+<div class="section" id="question-how-many-arrests-were-there-on-january-1st">
+<h3>Question: How many arrests were there on January 1st?<a class="headerlink" href="#question-how-many-arrests-were-there-on-january-1st" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="splitting-content-from-one-cell-into-two-cells">
+<h2>Splitting content from one cell into two cells<a class="headerlink" href="#splitting-content-from-one-cell-into-two-cells" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes a dataset may include coordinates, which can easily be
+imported into ArcGIS Online to visualize spatially. However, in order to
+import seamlessly the latitude and longitude need to be in two separate
+columns. Follow the instructions below if the coordinates are in one
+column.</p>
+<ol class="arabic simple">
+<li>Select the cell or cells whose contents you want to split.<ol class="loweralpha">
+<li><dl class="first docutils">
+<dt>Important: When you split the contents, they will overwrite the</dt>
+<dd>contents in the next cell to the right, so make sure to have an
+empty column there.</dd>
+</dl>
+</li>
+</ol>
+</li>
+</ol>
+<p><a class="reference internal" href="media/image16.png"><img alt="image13" src="media/image16.png" style="width: 5.31771in; height: 4.21837in;" /></a></p>
+<ol class="arabic simple" start="2">
+<li><dl class="first docutils">
+<dt>On the Data tab, in the Data Tools group, click Text to Columns. The</dt>
+<dd>Convert Text to Columns Wizard opens.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image9.png"><img alt="image14" src="media/image9.png" style="width: 6.5in; height: 1.36111in;" /></a></div></blockquote>
+<ol class="arabic simple" start="3">
+<li><dl class="first docutils">
+<dt>Choose Delimited if it is not already selected, and then click</dt>
+<dd>Next.<a class="reference internal" href="media/image11.png"><img alt="image15" src="media/image11.png" style="width: 6.5in; height: 4.625in;" /></a></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Select the delimiter or delimiters to define the places where you</dt>
+<dd>want to split the cell content. The Data preview section shows you
+what your content would look like. Click Next.<a class="reference internal" href="media/image5.png"><img alt="image16" src="media/image5.png" style="width: 6.5in; height: 4.625in;" /></a></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>In the Column data format area, select the data format for the new</dt>
+<dd>columns. By default, the columns have the same data format as the
+original cell. Click Finish.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image14.png"><img alt="image17" src="media/image14.png" style="width: 6.5in; height: 4.625in;" /></a></div></blockquote>
+<ol class="arabic simple" start="6">
+<li><dl class="first docutils">
+<dt>The coordinates are now split into two columns based on the comma</dt>
+<dd>delimiter. However, the new columns still have the single
+parenthesis. To remove the parentheses add two new columns to the
+right of each new coordinate column.</dd>
+</dl>
+</li>
+</ol>
+<p><a class="reference internal" href="media/image21.png"><img alt="image18" src="media/image21.png" style="width: 5.08333in; height: 4.52107in;" /></a></p>
+<p><a class="reference internal" href="media/image25.png"><img alt="image19" src="media/image25.png" style="width: 5.13021in; height: 4.57115in;" /></a></p>
+<ol class="arabic simple" start="7">
+<li><dl class="first docutils">
+<dt>Type the following equation in the cell to the right of the first</dt>
+<dd>column: =RIGHT(Q2, LEN(Q2)-1).</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image7.png"><img alt="image20" src="media/image7.png" style="width: 6.57813in; height: 1.14612in;" /></a></div></blockquote>
+<ol class="arabic simple" start="8">
+<li><dl class="first docutils">
+<dt>To copy the equation to the remaining rows, select the cell and hover</dt>
+<dd>over the bottom right corner until the cursor becomes a cross.
+Double-click.</dd>
+</dl>
+</li>
+</ol>
+<p><a class="reference internal" href="media/image3.png"><img alt="image21" src="media/image3.png" style="width: 4.76563in; height: 2.15102in;" /></a></p>
+<ol class="arabic simple" start="9">
+<li><dl class="first docutils">
+<dt>Type the following equation in the cell to the right of the second</dt>
+<dd>new location column: =LEFT(S2, LEN(S2)-1). Repeat the process for
+the longitude column and copy the formula into the remaining
+cells. Make sure to label the new columns ‘lat’ and ‘lon’.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image19.png"><img alt="image22" src="media/image19.png" style="width: 3.98438in; height: 3.74249in;" /></a></div></blockquote>
+</div>
+<div class="section" id="leading-zeros">
+<h2>Leading Zeros<a class="headerlink" href="#leading-zeros" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><dl class="first docutils">
+<dt>Sometimes when moving data between software, leading zeros are</dt>
+<dd>dropped which change the way you can use a particular dataset.
+This is particularly true when working with zip codes.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image13.png"><img alt="image23" src="media/image13.png" style="width: 3.83854in; height: 3.05662in;" /></a></div></blockquote>
+<ol class="arabic simple" start="2">
+<li><dl class="first docutils">
+<dt>To add back the leading zeros, highlight the column and right-click</dt>
+<dd>to select Format Cells. Then select Custom.</dd>
+</dl>
+</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image10.png"><img alt="image24" src="media/image10.png" style="width: 4.99479in; height: 4.45049in;" /></a></div></blockquote>
+<ol class="arabic simple" start="3">
+<li>Type ‘00000’ in the Type field and click ‘OK’.<a class="reference internal" href="media/image27.png"><img alt="image25" src="media/image27.png" style="width: 4.81566in; height: 4.29688in;" /></a></li>
+<li>Leading zeros have now been added back to your field!</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="media/image1.png"><img alt="image26" src="media/image1.png" style="width: 4.53125in; height: 2.86458in;" /></a></div></blockquote>
+</div>
+<div class="section" id="next-guide-joining-data-in-qgis">
+<h2>Next Guide: Joining Data in QGIS<a class="headerlink" href="#next-guide-joining-data-in-qgis" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes you want to summarize data by location. For example you want
+to see the number of arrests by zipcodes or neighborhoods. To do this,
+you need to do what is called a spatial join.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Intro" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Albert K. and Mariah T.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
