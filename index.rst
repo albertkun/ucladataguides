@@ -7,7 +7,7 @@ Welcome to Big Data for Justice Institute's Documentation!
 ===================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 8
    :caption: Table of Contents:
    
    introduction
