@@ -7,18 +7,27 @@ Welcome to Big Data for Justice Institute's Documentation!
 ===================================
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 2
    :caption: Table of Contents:
    
+   How to use this documentation
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    introduction
+
+   Guides for working with raw data
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    data_portal
    tableau
+   excel
+
+   Guides for mapping data
+   ^^^^^^^^^^^^^^^^^^^^^^^
    agol
    qgis
-   excel
+
+   Guides for presenting data
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^
    storymaps
-
-
 
 Indices and Tables
 ==================
