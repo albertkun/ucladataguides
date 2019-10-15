@@ -11,12 +11,16 @@ Welcome to Big Data for Justice Institute's Documentation!
    :caption: Table of Contents:
    
    introduction
+<<<<<<< HEAD
    data_portal
    tableau
    agol
    qgis
    excel
    storymaps
+=======
+   excel
+>>>>>>> 22c5d86c4a3faa9ca7c05724d3c04445c7c887d6
 
 
 
