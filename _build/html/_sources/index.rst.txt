@@ -10,23 +10,19 @@ Welcome to Big Data for Justice Institute's Documentation!
    :maxdepth: 2
    :caption: Table of Contents:
    
-   How to use this documentation
-   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   :caption: How to use this documentation
    introduction
 
-   Guides for working with raw data
-   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   :caption: Guides for working with raw data
    data_portal
    tableau
    excel
 
-   Guides for mapping data
-   ^^^^^^^^^^^^^^^^^^^^^^^
+   :caption: Guides for mapping data
    agol
    qgis
-
-   Guides for presenting data
-   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   
+   :caption: Guides for presenting data
    storymaps
 
 Indices and Tables

@@ -2,7 +2,7 @@ Quick Visual Guide to Cleaning Data in Microsoft Excel
 ======================================================
 
 Getting Started
-~~~~~~~~~~~~~~~
+---------------
 
 Note: This tutorial uses Los Angeles Police Department Arrest data
 filtered for the month of January downloaded from Los Angeles Open Data
@@ -10,7 +10,7 @@ portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
 Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )
 
 How to open CSV files
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 1. Go to File -> Open
 
@@ -47,7 +47,7 @@ ARST_DATE should be a date field, and ARST_TM should be a Time Field.
 5.Do the same for BKG_DT and BKG_TM as well.
 
 Formulas
-~~~~~~~~
+--------
 
 Excel is a spreadsheet program, which means it is made up of rows and
 columns: one giant table. One of the most powerful tools is formulas,
@@ -83,7 +83,7 @@ Question: Whats the formula to combine the Lat(\ Q2) and Long(\ R2) columns into
                                                                                                              
 
 Sorting
-~~~~~~~
+-------
 
 In the top part of the menu you can select “Sort”:
 
@@ -106,7 +106,7 @@ We will sort the data from highest to lowest arrest date:
 Feel free to explore sorting the data!
 
 Filtering
-~~~~~~~~~
+---------
 
 You can also filter the data by using the Checkboxes or the Filter By
 box below the Sort options:
@@ -120,7 +120,7 @@ Question: How many arrests were there on January 1st?
 '''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Splitting content from one cell into two cells
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 Sometimes a dataset may include coordinates, which can easily be
 imported into ArcGIS Online to visualize spatially. However, in order to
@@ -190,7 +190,7 @@ column.
    |image22|
 
 Leading Zeros
-~~~~~~~~~~~~~
+-------------
 
 1. Sometimes when moving data between software, leading zeros are
       dropped which change the way you can use a particular dataset.
@@ -216,7 +216,7 @@ Leading Zeros
    |image26|
 
 Next Guide: Joining Data in QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 Sometimes you want to summarize data by location. For example you want
 to see the number of arrests by zipcodes or neighborhoods. To do this,
