@@ -9,7 +9,7 @@ portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
 Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )*
 
 1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps:\ `Nine Steps to Great
-   Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__
+   Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
 2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if applicable.
 

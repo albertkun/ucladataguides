@@ -11,6 +11,7 @@ Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?u
 1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps:\ `Nine Steps to Great
    Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
+
 2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if applicable.
 
    a. *Note: Refer to \ `Quick Visual Guide to Visualizing Data on ArcGIS
@@ -26,7 +27,7 @@ Designing your StoryMap
 
 ..
 
-   |image0|
+   |sm_image0|
 
 ESRI Story Maps consists of “content blocks" these have different types,
 such as pictures, text, and maps.
@@ -38,18 +39,17 @@ Adding Content Blocks
 
 ..
 
-   |image1|
+   |sm_image1|
 
 2. Review the various content block types to build your narrative. Select **Map**.
 
-|image2|
-~~~~~~~~
+   |sm_image2|
 
 3. There are two options for adding maps: a) Create an Express Map and b) Add an existing ArcGIS Online web map.
 
 ..
 
-   |image3|
+   |sm_image3|
 
 Adding a Sidecar
 ~~~~~~~~~~~~~~~~
@@ -59,9 +59,9 @@ Adding a Sidecar
 
 ..
 
-   |image4|
+   |sm_image4|
 
-|image5|\ |image6|
+   |sm_image5|\ |sm_image6|
 
 2. For an introduction to sidecar, see Esri’s\ `6 Ways to Use Sidecar in the New ArcGIS StoryMaps <https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/>`__
 
@@ -70,19 +70,19 @@ Creating an Express Map
 
 1. Express Maps are perfect for creating quick and simple maps. Select **Create an express map**.
 
-|image7|
+   |sm_image7|
 
 2. The **Search by location** bar allows users to quickly locate specific sites.
 
-|image8|
+   |sm_image8|
 
 3. Search for Los Angeles, CA.
 
-|image9|
+   |sm_image9|
 
 4. Click **Add to map** from results window.
 
-|image10|
+   |sm_image10|
 
 5. For more information on when and how to use Express Maps see Esri’s \ `Introducing Express Maps: Making Simple Maps
    Simply. <https://community.esri.com/docs/DOC-13164-introducing-express-maps-making-simple-maps-simply>`__
@@ -96,7 +96,7 @@ Adding an Existing ArcGIS Online Web Map
 
 ..
 
-   |image11|
+   |sm_image11|
 
    a. *Note: Web Maps must be shared publicly in order to be viewed by
       people other than yourself without requiring a login. Make sure to
@@ -105,22 +105,22 @@ Adding an Existing ArcGIS Online Web Map
 
 ..
 
-   |image12|
+   |sm_image12|
 
    b. Observe the sharing status statement on the right pane. To update the
       sharing setting click on the Share button.
 
-|image13|
+   |sm_image13|
 
    c. Check the box next to Everyone(Public) and click OK.
 
 ..
 
-   |image14|
+   |sm_image14|
 
 2. Once the map is placed, try different block display options such as **float**, **small**, **medium** or **large**.
 
-|image15|
+   |sm_image15|
 
 Publishing & Sharing your Story Map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,66 +128,66 @@ Publishing & Sharing your Story Map
 1. When you are finished editing and designing your Story Map, click **Publish** at the beginning of the StoryMap to update the
    sharing settings of your StoryMap.
 
-|image16|
+   |sm_image16|
 
 2. Select your preferred sharing type. If you want anyone to access your
    StoryMap make sure to select **Everyone**. Click **Publish Story**.
 
 ..
 
-   |image17|
+   |sm_image17|
 
-.. |image0| image:: media/image17.png
+.. |sm_image0| image:: media/sm_image0.png
    :width: 6.48123in
    :height: 3.29688in
-.. |image1| image:: media/image9.png
+.. |sm_image1| image:: media/sm_image1.png
    :width: 6.5in
    :height: 2.68056in
-.. |image2| image:: media/image8.png
+.. |sm_image2| image:: media/sm_image2.png
    :width: 6.5in
    :height: 3.375in
-.. |image3| image:: media/image13.png
+.. |sm_image3| image:: media/sm_image3.png
    :width: 5.11979in
    :height: 3.14284in
-.. |image4| image:: media/image4.png
+.. |sm_image4| image:: media/sm_image4.png
    :width: 2.72396in
    :height: 3.15691in
-.. |image5| image:: media/image15.png
+.. |sm_image5| image:: media/sm_image5.png
    :width: 6.5in
    :height: 3.05556in
-.. |image6| image:: media/image16.png
+.. |sm_image6| image:: media/sm_image6.png
    :width: 6.5in
    :height: 3.05556in
-.. |image7| image:: media/image1.png
+.. |sm_image7| image:: media/sm_image7.png
    :width: 6.5in
    :height: 3.38889in
-.. |image8| image:: media/image3.png
+.. |sm_image8| image:: media/sm_image8.png
    :width: 6.5in
    :height: 3.38889in
-.. |image9| image:: media/image6.png
+.. |sm_image9| image:: media/sm_image9.png
    :width: 6.5in
    :height: 3.38889in
-.. |image10| image:: media/image2.png
+.. |sm_image10| image:: media/sm_image10.png
    :width: 6.5in
    :height: 3.38889in
-.. |image11| image:: media/image11.png
+.. |sm_image11| image:: media/sm_image11.png
    :width: 6.03646in
    :height: 3.56964in
-.. |image12| image:: media/image7.png
+.. |sm_image12| image:: media/sm_image12.png
    :width: 2.34896in
    :height: 2.46028in
-.. |image13| image:: media/image10.png
+.. |sm_image13| image:: media/sm_image13.png
    :width: 6.5in
    :height: 3.05556in
-.. |image14| image:: media/image5.png
+.. |sm_image14| image:: media/sm_image14.png
    :width: 3.15104in
    :height: 3.53944in
-.. |image15| image:: media/image12.png
+.. |sm_image15| image:: media/sm_image15.png
    :width: 6.5in
    :height: 3.88889in
-.. |image16| image:: media/image18.png
+.. |sm_image16| image:: media/sm_image16.png
    :width: 6.5in
    :height: 3.05556in
-.. |image17| image:: media/image14.png
+.. |sm_image17| image:: media/sm_image17.png
    :width: 6.5in
    :height: 4.97222in
