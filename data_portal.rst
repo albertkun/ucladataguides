@@ -1,3 +1,6 @@
+Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal
+==========================================================================
+
 Getting Started
 ---------------
 
