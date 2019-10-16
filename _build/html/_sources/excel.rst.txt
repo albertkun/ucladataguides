@@ -72,10 +72,6 @@ Question: Whats the formula to combine the Lat(\ Q2) and Long(\ R2) columns into
                                                                                      
 
 If you simply add the two, it might look a little messy, so we should add a space in between columns by the following formula:
-<<<<<<< HEAD
-=======
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
->>>>>>> 22c5d86c4a3faa9ca7c05724d3c04445c7c887d6
 
 =\ A1\ &“ “&\ B1
 

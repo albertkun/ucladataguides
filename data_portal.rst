@@ -1,5 +1,5 @@
 Getting Started
-===============
+---------------
 
 1. Navigate to the LA Open Data Portal (\ https://data.lacity.org/\ )
 
@@ -19,7 +19,7 @@ Getting Started
       \ |image3|
 
 Viewing Data
-============
+------------
 
 6. In the Data set page, you can view information about the data, such
       as column names, source of the data, etc.
@@ -30,7 +30,7 @@ Viewing Data
 8. You can scroll through the data columns or records\ |image5|
 
 Filtering the data set by date
-==============================
+------------------------------
 
 9.  Under “Filter” click the initial filter column
 
@@ -45,7 +45,7 @@ Filtering the data set by date
        Data Portal.png|
 
 Visualizing the data
-====================
+--------------------
 
 13. Click on “Visualize”
 
@@ -72,7 +72,7 @@ Visualizing the data
        12_09_00-\_ Los Angeles - Open Data Portal.png|
 
 Mapping our data
-================
+----------------
 
 20. We will choose map, which is the globe to the right:
        \ |image14|
@@ -96,7 +96,7 @@ Mapping our data
 |image19|
 
 Summarizing our Map Points
-==========================
+--------------------------
 
 26. Scroll down to “Point Aggregation”
        \ |image20|
@@ -113,7 +113,7 @@ Summarizing our Map Points
        13_08_39-\_ Los Angeles - Open Data Portal.png|
 
 Save the Visualization
-======================
+----------------------
 
 30. If you have created a Socrata Account, you can save the Visulization
        by clicking at the bottom, “Save Draft”
@@ -127,7 +127,7 @@ Save the Visualization
        page.
 
 Downloading the entire data
-===========================
+---------------------------
 
 Return back to the page with the data by clicking on the X or “Back to
 Data Set”
@@ -145,7 +145,7 @@ Data Set”
    |image28|
 
 Download filtered Data
-======================
+----------------------
 
 36. Go back to “View Data” to open the Socrata data page for the arrest
        dataset:

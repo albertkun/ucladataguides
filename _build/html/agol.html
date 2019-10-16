@@ -1,36 +1,204 @@
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <title>Quick Visual Guide to Visualizing Data in ArcGIS Online &#8212; mdhdocs  documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quick Visual Guide to Visualizing Data in ArcGIS Online &mdash; mdhdocs  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Quick Visual Guide to Cleaning Data in Microsoft Excel" href="excel.html" />
-    <link rel="prev" title="Getting Started" href="data_portal.html" />
+    <link rel="next" title="Quick Visual Guide to Visualizing Data using Esri Story Maps" href="storymaps.html" />
+    <link rel="prev" title="Quick Visual Guide to Cleaning Data in Microsoft Excel" href="excel.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
    
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-
-  </head><body>
-  
-
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
           
 
-          <div class="body" role="main">
+          
+            <a href="index.html" class="icon icon-home"> mdhdocs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Intro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#viewing-data">Viewing Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#filtering-the-data-set-by-date">Filtering the data set by date</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#visualizing-the-data">Visualizing the data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#mapping-our-data">Mapping our data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#summarizing-our-map-points">Summarizing our Map Points</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#save-the-visualization">Save the Visualization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#downloading-the-entire-data">Downloading the entire data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_portal.html#download-filtered-data">Download filtered Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="excel.html">Quick Visual Guide to Cleaning Data in Microsoft Excel</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Visual Guide to Visualizing Data in ArcGIS Online</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bymariah-tsoandalbert-kochaphum-albertkun-idre-ucla-edu">ByMariah TsoandAlbert Kochaphum(albertkun&#64;idre.ucla.edu)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction-to-gis-vector-data">Introduction to GIS Vector Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#working-with-point-data">Working with Point Data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#adding-point-data-less-than-2-000-records-in-map-view">Adding Point Data (Less than 2,000 records*) in Map View</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#big-data-workaround-github-to-the-rescue">Big Data Workaround: Github to the Rescue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-github-account">Creating a Github Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#location-only-symbology">Location Only Symbology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#attribute-based-symbology">Attribute Based Symbology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-clustering">Enable Clustering</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#working-with-polygon-data">Working with Polygon Data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#getting-polygon-data">Getting Polygon Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#adding-polygon-data-in-map-view">Adding Polygon Data in Map View</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#styling-polygon-data-choropleth-map">Styling Polygon Data/Choropleth Map</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#other-map-tools">Other Map Tools</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#table-of-contents-managing-your-data">Table of Contents: Managing your Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bookmarks">Bookmarks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#changing-the-basemap">Changing the Basemap</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#adding-other-layers">Adding Other Layers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#renaming-copying-layers">Renaming &amp; Copying Layers</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuring-pop-ups">Configuring Pop-Ups</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-images-to-a-pop-up">Adding images to a pop-up</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sharing-publishing-your-map">Sharing &amp; Publishing Your Map</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#saving-your-map">Saving your map</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#optional-organizing-your-finished-maps-content">Optional: Organizing your Finished Maps &amp; Content</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="storymaps.html">Quick Visual Guide to Visualizing Data using Esri Story Maps</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">mdhdocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Quick Visual Guide to Visualizing Data in ArcGIS Online</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/agol.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
             
   <div class="section" id="quick-visual-guide-to-visualizing-data-in-arcgis-online">
 <h1>Quick Visual Guide to Visualizing Data in ArcGIS Online<a class="headerlink" href="#quick-visual-guide-to-visualizing-data-in-arcgis-online" title="Permalink to this headline">¶</a></h1>
@@ -927,92 +1095,52 @@ OpenData”</p>
 </div>
 
 
+           </div>
+           
           </div>
-          
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="index.html">mdhdocs</a></h1>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<p class="caption"><span class="caption-text">Table of Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="introduction.html">Intro</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#viewing-data">Viewing Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#filtering-the-data-set-by-date">Filtering the data set by date</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#visualizing-the-data">Visualizing the data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#mapping-our-data">Mapping our data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#summarizing-our-map-points">Summarizing our Map Points</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#save-the-visualization">Save the Visualization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#downloading-the-entire-data">Downloading the entire data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html#download-filtered-data">Download filtered Data</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Visual Guide to Visualizing Data in ArcGIS Online</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#bymariah-tsoandalbert-kochaphum-albertkun-idre-ucla-edu">ByMariah TsoandAlbert Kochaphum(albertkun&#64;idre.ucla.edu)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#creating-a-github-account">Creating a Github Account</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#location-only-symbology">Location Only Symbology</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#attribute-based-symbology">Attribute Based Symbology</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#enable-clustering">Enable Clustering</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adding-images-to-a-pop-up">Adding images to a pop-up</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="excel.html">Quick Visual Guide to Cleaning Data in Microsoft Excel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="storymaps.html">Quick Visual Guide to Visualizing Data using Esri Story Maps</a></li>
-</ul>
-
-<div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="data_portal.html" title="previous chapter">Getting Started</a></li>
-      <li>Next: <a href="excel.html" title="next chapter">Quick Visual Guide to Cleaning Data in Microsoft Excel</a></li>
-  </ul></li>
-</ul>
-</div>
-<div id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
-      <input type="submit" value="Go" />
-    </form>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="storymaps.html" class="btn btn-neutral float-right" title="Quick Visual Guide to Visualizing Data using Esri Story Maps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="excel.html" class="btn btn-neutral float-left" title="Quick Visual Guide to Cleaning Data in Microsoft Excel" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
     </div>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+  
 
+  <hr/>
 
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Albert K. and Mariah T.
 
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
-
-
-
+</footer>
 
         </div>
       </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &copy;2019, Albert K. and Mariah T..
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
-      
-      |
-      <a href="_sources/agol.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
 
-    
+    </section>
 
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
     
-  </body>
+   
+
+</body>
 </html>
