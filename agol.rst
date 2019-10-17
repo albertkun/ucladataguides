@@ -1,8 +1,6 @@
 Quick Visual Guide to Visualizing Data in ArcGIS Online
 =======================================================
 
-Link to this guide:\ https://tinyurl.com/y62oajsc
-
 Introduction to GIS Vector Data
 -------------------------------
 
@@ -14,10 +12,10 @@ See the figure below for an example of each of the types.
 Getting Started
 ---------------
 
-Note: This tutorial uses arrest data downloaded from Los Angeles Open
+*Note: This tutorial uses arrest data downloaded from Los Angeles Open
 Data portal filtered for the year of 2017 only (see: `Quick Visual Guide
 to Visualizing Data on LA Open Data
-Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )
+Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )*
 
 You can download the data here:
 
@@ -59,29 +57,28 @@ Adding Point Data (Less than 2,000 records*) in Map View
 2. Find your CSV file with the arrest data from the LA County Data
    Portal. Make sure you have the location data cleaned up!
 
-3. (add screenshot for adding CSV haha)
 
-   a. Note: If you data has not been cleaned up yet see:\ `Quick Visual
-         Guide for Cleaning Data in Microsoft
-         Excel <https://docs.google.com/document/d/13GJ6NBgIHUQkQzAbFcefO7qHfbxom1BxQMFXom3WJ60/>`__
+
+   a. *Note: If you data has not been cleaned up yet see:\ `Quick Visual
+      Guide for Cleaning Data in Microsoft Excel <https://docs.google.com/document/d/13GJ6NBgIHUQkQzAbFcefO7qHfbxom1BxQMFXom3WJ60/>`__\*
 
    b. Note: The maximum number of records for adding data via this
-         method 2,000. If you attempt to use your arrest data from the
-         LA City Portal then ArcGIS Online will return the following
-         error message:
+      method 2,000. If you attempt to use your arrest data from the
+      LA City Portal then ArcGIS Online will return the following
+      error message:
 
 ..
 
    |agol_image5|
 
-4. A workaround for this size limitation is publishing your csv file on
-      Github and linking the data back to your map.
+3. A workaround for this size limitation is publishing your csv file on
+   Github and linking the data back to your map.
 
    c. Note: If you pay for an ArcGIS Online account you can also publish
-         a feature service from one of the two desktop software options:
-         ArcMap or ArcGIS Pro. These options have higher maximum records
-         for publishing, however the Github option is a good free
-         workaround.
+      a feature service from one of the two desktop software options:
+      ArcMap or ArcGIS Pro. These options have higher maximum records
+      for publishing, however the Github option is a good free
+      workaround.
 
 Big Data Workaround: Github to the Rescue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,9 +90,8 @@ online, this is where the coding repository, GitHub comes in handy!
 Creating a Github Account
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Github is a platform for developers and a place to store, share, and
-      collaborate on coding projects. Create a Github Account
-      here:\ https://github.com/join
+1. Github is a platform for developers and a place to store, share, and collaborate on coding projects. 
+   Create a Github Account here:\ https://github.com/join
 
 ..
 
@@ -118,7 +114,9 @@ Creating a Github Account
    |agol_image9|
 
 4. After creating your repository, click on “uploading an existing
-   file”\ |agol_image10|
+   file”
+   
+   |agol_image10|
 
 5. Drag the csv file with the locations into the upload location or
    click “choose your files” if you want to locate it (reminder: make
@@ -152,8 +150,7 @@ Creating a Github Account
 
    |agol_image15|
 
-10. Now, finally go back to ArcGIS Online and click on “Add data from
-   web”
+10. Now, finally go back to ArcGIS Online and click on “Add data from web”
 
 ..
 
@@ -300,12 +297,12 @@ Location Only Symbology
 3. There are three main elements under the Styling options for Showing
    Location Only:
 
-   c. Symbol: Controls all of the styling options for the chosen point
+   a. Symbol: Controls all of the styling options for the chosen point
       symbol.
 
-   d. Transparency: Controls the transparency of each point.
+   b. Transparency: Controls the transparency of each point.
 
-   e. Visible Range: Drag the two tick marks to control the scale ranges
+   c. Visible Range: Drag the two tick marks to control the scale ranges
       that the selected layer becomes visible.
 
 ..
@@ -321,17 +318,17 @@ Location Only Symbology
 
 5. Make the following changes to your symbol:
 
-   f. Chose Basic Circle
+   a. Chose Basic Circle
 
-   g. Size: 5 px
+   b. Size: 5 px
 
-   h. Fill: Light Blue
+   c. Fill: Light Blue
 
-   i. Outline: Dark Blue
+   d. Outline: Dark Blue
 
-   j. Overall Transparency: 25%
+   e. Overall Transparency: 25%
 
-   k. Visibility Range: Counties to Buildings
+   f. Visibility Range: Counties to Buildings
 
 ..
 
@@ -343,8 +340,8 @@ Location Only Symbology
    within your dataset when symbolizing individual points. Try a
    different symbology method and switch from ‘Show location only’ to
    ‘Heat Map’.
-
-7. Heat maps represent density and show the range of areas where arrests
+   
+   Heat maps represent density and show the range of areas where arrests
    have low and high density. Notice the difference in your map from
    the previous symbology and how downtown Los Angeles emerges as a
    dense area for arrests.
@@ -354,37 +351,37 @@ Location Only Symbology
 Attribute Based Symbology
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-8. Click ‘Ok’ to return to the original Change Style pane. Now under
+1. Click ‘Ok’ to return to the original Change Style pane. Now under
    Step 1, select ‘Age’ for ‘Choose an attribute to show’.
 
    Scroll down to see the six options for drawing styles by attributes:
 
-1. Counts and Amounts (Size)
+   a. Counts and Amounts (Size)
 
-2. Counts and Amounts (Color)
+   b. Counts and Amounts (Color)
 
-3. Heat Map
+   c. Heat Map
 
-4. Location (Single Symbol)
+   d. Location (Single Symbol)
 
-5. Types (Unique Symbols)
+   e. Types (Unique Symbols)
 
 ..
 
    |agol_image37|
 
-9. Select ‘Counts and Amounts(Color)’ and Click ‘Options’. Then Click
+9. Select ‘Counts and Amounts (Color)’ and Click ‘Options’. Then Click
    ‘Classify Data’.
 
    Data classification refers to how you group your data into classes to
    better visualize patterns across your dataset. There are a variety of
    methods for data classification. To learn more about the different
-   methods see Esri’s\ `Data Classification Help
+   methods see Esri’s \ `Data Classification Help
    Page <https://desktop.arcgis.com/en/arcmap/latest/extensions/geostatistical-analyst/data-classification.htm>`__\ .
 
 |agol_image38| |agol_image39|
 
-10. Select ‘Natural Breaks’ from the dropdown menu and keep the number
+10. Select ‘Natural Breaks’ from the dropdown menu and keep the number 
    of classes at 4. Then select ‘10’ from the ‘Round classes’
    dropdown menu. Notice how the breaks change and how the
    classification type changes to ‘Manual Breaks’.
@@ -692,9 +689,10 @@ share it!
 
 1. Click on the “Save” icon
 
-2. |agol_image76|
+|agol_image76|
 
-3. Give your map a name and tag and then click “Save Map”\ |agol_image77|
+3. Give your map a name and tag and then click “Save Map”
+|agol_image77|
 
 4. To share our saved map, click on the “Share” icon:
 

@@ -5,10 +5,10 @@ Getting Started
 ~~~~~~~~~~~~~~~
 
 *Note: This tutorial uses data downloaded from Los Angeles Open Data
-portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
+portal (see: \ `Quick Visual Guide to Visualizing Data on LA Open Data
 Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )*
 
-1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps:\ `Nine Steps to Great
+1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps: \ `Nine Steps to Great
    Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
 
@@ -29,7 +29,7 @@ Designing your StoryMap
 
    |sm_image0|
 
-ESRI Story Maps consists of “content blocks" these have different types,
+ESRI StoryMaps consists of “content blocks" these have different types,
 such as pictures, text, and maps.
 
 Adding Content Blocks
@@ -63,7 +63,7 @@ Adding a Sidecar
 
    |sm_image5|\ |sm_image6|
 
-2. For an introduction to sidecar, see Esri’s\ `6 Ways to Use Sidecar in the New ArcGIS StoryMaps <https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/>`__
+2. For an introduction to sidecar, see Esri’s \ `6 Ways to Use Sidecar in the New ArcGIS StoryMaps <https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/>`__
 
 Creating an Express Map
 ~~~~~~~~~~~~~~~~~~~~~~~
