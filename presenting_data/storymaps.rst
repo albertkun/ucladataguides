@@ -136,57 +136,57 @@ Publishing & Sharing your Story Map
 
    |sm_image17|
 
-.. |sm_image0| image:: media/sm_image0.png
+.. |sm_image0| image:: ../media/sm_image0.png
    :width: 6.48123in
    :height: 3.29688in
-.. |sm_image1| image:: media/sm_image1.png
+.. |sm_image1| image:: ../media/sm_image1.png
    :width: 6.5in
    :height: 2.68056in
-.. |sm_image2| image:: media/sm_image2.png
+.. |sm_image2| image:: ../media/sm_image2.png
    :width: 6.5in
    :height: 3.375in
-.. |sm_image3| image:: media/sm_image3.png
+.. |sm_image3| image:: ../media/sm_image3.png
    :width: 5.11979in
    :height: 3.14284in
-.. |sm_image4| image:: media/sm_image4.png
+.. |sm_image4| image:: ../media/sm_image4.png
    :width: 2.72396in
    :height: 3.15691in
-.. |sm_image5| image:: media/sm_image5.png
+.. |sm_image5| image:: ../media/sm_image5.png
    :width: 6.5in
    :height: 3.05556in
-.. |sm_image6| image:: media/sm_image6.png
+.. |sm_image6| image:: ../media/sm_image6.png
    :width: 6.5in
    :height: 3.05556in
-.. |sm_image7| image:: media/sm_image7.png
+.. |sm_image7| image:: ../media/sm_image7.png
    :width: 6.5in
    :height: 3.38889in
-.. |sm_image8| image:: media/sm_image8.png
+.. |sm_image8| image:: ../media/sm_image8.png
    :width: 6.5in
    :height: 3.38889in
-.. |sm_image9| image:: media/sm_image9.png
+.. |sm_image9| image:: ../media/sm_image9.png
    :width: 6.5in
    :height: 3.38889in
-.. |sm_image10| image:: media/sm_image10.png
+.. |sm_image10| image:: ../media/sm_image10.png
    :width: 6.5in
    :height: 3.38889in
-.. |sm_image11| image:: media/sm_image11.png
+.. |sm_image11| image:: ../media/sm_image11.png
    :width: 6.03646in
    :height: 3.56964in
-.. |sm_image12| image:: media/sm_image12.png
+.. |sm_image12| image:: ../media/sm_image12.png
    :width: 2.34896in
    :height: 2.46028in
-.. |sm_image13| image:: media/sm_image13.png
+.. |sm_image13| image:: ../media/sm_image13.png
    :width: 6.5in
    :height: 3.05556in
-.. |sm_image14| image:: media/sm_image14.png
+.. |sm_image14| image:: ../media/sm_image14.png
    :width: 3.15104in
    :height: 3.53944in
-.. |sm_image15| image:: media/sm_image15.png
+.. |sm_image15| image:: ../media/sm_image15.png
    :width: 6.5in
    :height: 3.88889in
-.. |sm_image16| image:: media/sm_image16.png
+.. |sm_image16| image:: ../media/sm_image16.png
    :width: 6.5in
    :height: 3.05556in
-.. |sm_image17| image:: media/sm_image17.png
+.. |sm_image17| image:: ../media/sm_image17.png
    :width: 6.5in
    :height: 4.97222in

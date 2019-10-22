@@ -656,7 +656,7 @@ Configuring Pop-Ups
 Adding images to a pop-up
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. You can add images to a pop-up by scrolling down to “Pop-up Media”
+1. You can add images to a pop-up by scrolling down to “Pop-up ../Media”
    and clicking “Add”
 
 ..
@@ -761,258 +761,258 @@ organizing it using metadata.
 
    |agol_image84|
 
-.. |agol_image0| image:: media/agol_image0.png
+.. |agol_image0| image:: ../media/agol_image0.png
    :width: 5.50521in
    :height: 2.81436in
-.. |agol_image1| image:: media/agol_image1.png
+.. |agol_image1| image:: ../media/agol_image1.png
    :width: 6.5in
    :height: 3.73611in
-.. |agol_image2| image:: media/agol_image2.png
+.. |agol_image2| image:: ../media/agol_image2.png
    :width: 6.5in
    :height: 3.73611in
-.. |agol_image3| image:: media/agol_image3.png
+.. |agol_image3| image:: ../media/agol_image3.png
    :width: 6.5in
    :height: 3.73611in
-.. |agol_image4| image:: media/agol_image4.png
+.. |agol_image4| image:: ../media/agol_image4.png
    :width: 6.5in
    :height: 2.84722in
-.. |agol_image5| image:: media/agol_image5.png
+.. |agol_image5| image:: ../media/agol_image5.png
    :width: 4.95833in
    :height: 2.94792in
-.. |agol_image6| image:: media/agol_image6.png
+.. |agol_image6| image:: ../media/agol_image6.png
    :width: 6.5in
    :height: 3.45833in
-.. |agol_image7| image:: media/agol_image7.png
+.. |agol_image7| image:: ../media/agol_image7.png
    :width: 6.5in
    :height: 3.45833in
-.. |agol_image8| image:: media/agol_image8.png
+.. |agol_image8| image:: ../media/agol_image8.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image9| image:: media/agol_image9.png
+.. |agol_image9| image:: ../media/agol_image9.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image10| image:: media/agol_image10.png
+.. |agol_image10| image:: ../media/agol_image10.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image11| image:: media/agol_image11.png
+.. |agol_image11| image:: ../media/agol_image11.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image12| image:: media/agol_image12.png
+.. |agol_image12| image:: ../media/agol_image12.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image13| image:: media/agol_image13.png
+.. |agol_image13| image:: ../media/agol_image13.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image14| image:: media/agol_image14.png
+.. |agol_image14| image:: ../media/agol_image14.png
    :width: 6.5in
    :height: 3.41667in
-.. |agol_image15| image:: media/agol_image15.png
+.. |agol_image15| image:: ../media/agol_image15.png
    :width: 6.5in
    :height: 4.19444in
-.. |agol_image16| image:: media/agol_image16.png
+.. |agol_image16| image:: ../media/agol_image16.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image17| image:: media/agol_image17.png
+.. |agol_image17| image:: ../media/agol_image17.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image18| image:: media/agol_image18.png
+.. |agol_image18| image:: ../media/agol_image18.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image19| image:: media/agol_image19.png
+.. |agol_image19| image:: ../media/agol_image19.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image20| image:: media/agol_image20.png
+.. |agol_image20| image:: ../media/agol_image20.png
    :width: 5.29688in
    :height: 2.9853in
-.. |agol_image21| image:: media/agol_image21.png
+.. |agol_image21| image:: ../media/agol_image21.png
    :width: 3.04442in
    :height: 1.68229in
-.. |agol_image22| image:: media/agol_image22.png
+.. |agol_image22| image:: ../media/agol_image22.png
    :width: 3.07109in
    :height: 2.25521in
-.. |agol_image23| image:: media/agol_image23.png
+.. |agol_image23| image:: ../media/agol_image23.png
    :width: 6.5in
    :height: 4.10417in
-.. |agol_image24| image:: media/agol_image24.png
+.. |agol_image24| image:: ../media/agol_image24.png
    :width: 6.5in
    :height: 4.27778in
-.. |agol_image25| image:: media/agol_image25.png
+.. |agol_image25| image:: ../media/agol_image25.png
    :width: 6.5in
    :height: 3.27778in
-.. |agol_image26| image:: media/agol_image26.png
+.. |agol_image26| image:: ../media/agol_image26.png
    :width: 6.5in
    :height: 2.83333in
-.. |agol_image27| image:: media/agol_image27.png
+.. |agol_image27| image:: ../media/agol_image27.png
    :width: 6.5in
    :height: 2.83333in
-.. |agol_image28| image:: media/agol_image28.png
+.. |agol_image28| image:: ../media/agol_image28.png
    :width: 6.5in
    :height: 2.76389in
-.. |agol_image29| image:: media/agol_image29.png
+.. |agol_image29| image:: ../media/agol_image29.png
    :width: 6.5in
    :height: 2.76389in
-.. |agol_image30| image:: media/agol_image30.png
+.. |agol_image30| image:: ../media/agol_image30.png
    :width: 6.23958in
    :height: 4.33333in
-.. |agol_image31| image:: media/agol_image31.png
+.. |agol_image31| image:: ../media/agol_image31.png
    :width: 2.49479in
    :height: 4.25074in
-.. |agol_image32| image:: media/agol_image32.png
+.. |agol_image32| image:: ../media/agol_image32.png
    :width: 2.40437in
    :height: 4.08854in
-.. |agol_image33| image:: media/agol_image33.png
+.. |agol_image33| image:: ../media/agol_image33.png
    :width: 2.84896in
    :height: 4.08764in
-.. |agol_image34| image:: media/agol_image34.png
+.. |agol_image34| image:: ../media/agol_image34.png
    :width: 2.78646in
    :height: 3.594in
-.. |agol_image35| image:: media/agol_image35.png
+.. |agol_image35| image:: ../media/agol_image35.png
    :width: 6.22396in
    :height: 4.33164in
-.. |agol_image36| image:: media/agol_image36.png
+.. |agol_image36| image:: ../media/agol_image36.png
    :width: 6.09896in
    :height: 4.23458in
-.. |agol_image37| image:: media/agol_image37.png
+.. |agol_image37| image:: ../media/agol_image37.png
    :width: 2.60921in
    :height: 4.45313in
-.. |agol_image38| image:: media/agol_image38.png
+.. |agol_image38| image:: ../media/agol_image38.png
    :width: 2.70785in
    :height: 4.63021in
-.. |agol_image39| image:: media/agol_image39.png
+.. |agol_image39| image:: ../media/agol_image39.png
    :width: 2.72612in
    :height: 4.66146in
-.. |agol_image40| image:: media/agol_image40.png
+.. |agol_image40| image:: ../media/agol_image40.png
    :width: 2.71354in
    :height: 4.63119in
-.. |agol_image41| image:: media/agol_image41.png
+.. |agol_image41| image:: ../media/agol_image41.png
    :width: 2.69271in
    :height: 4.59449in
-.. |agol_image42| image:: media/agol_image42.png
+.. |agol_image42| image:: ../media/agol_image42.png
    :width: 5.96354in
    :height: 4.1504in
-.. |agol_image43| image:: media/agol_image43.png
+.. |agol_image43| image:: ../media/agol_image43.png
    :width: 6.00521in
    :height: 4.1794in
-.. |agol_image44| image:: media/agol_image44.png
+.. |agol_image44| image:: ../media/agol_image44.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image45| image:: media/agol_image45.png
+.. |agol_image45| image:: ../media/agol_image45.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image46| image:: media/agol_image46.png
+.. |agol_image46| image:: ../media/agol_image46.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image47| image:: media/agol_image47.png
+.. |agol_image47| image:: ../media/agol_image47.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image48| image:: media/agol_image48.png
+.. |agol_image48| image:: ../media/agol_image48.png
    :width: 6.5in
    :height: 4.86458in
-.. |agol_image49| image:: media/agol_image49.png
+.. |agol_image49| image:: ../media/agol_image49.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image50| image:: media/agol_image50.png
+.. |agol_image50| image:: ../media/agol_image50.png
    :width: 6.81771in
    :height: 4.72791in
-.. |agol_image51| image:: media/agol_image51.png
+.. |agol_image51| image:: ../media/agol_image51.png
    :width: 2.68229in
    :height: 1.82298in
-.. |agol_image52| image:: media/agol_image52.png
+.. |agol_image52| image:: ../media/agol_image52.png
    :width: 6.5in
    :height: 2.84722in
-.. |agol_image53| image:: media/agol_image53.png
+.. |agol_image53| image:: ../media/agol_image53.png
    :width: 6.5in
    :height: 2.84722in
-.. |agol_image54| image:: media/agol_image54.png
+.. |agol_image54| image:: ../media/agol_image54.png
    :width: 6.5in
    :height: 3.05556in
-.. |agol_image55| image:: media/agol_image55.png
+.. |agol_image55| image:: ../media/agol_image55.png
    :width: 6.5in
    :height: 2.84722in
-.. |agol_image56| image:: media/agol_image56.png
+.. |agol_image56| image:: ../media/agol_image56.png
    :width: 6.5in
    :height: 2.84722in
-.. |agol_image57| image:: media/agol_image57.png
+.. |agol_image57| image:: ../media/agol_image57.png
    :width: 6.5in
    :height: 2.81944in
-.. |agol_image58| image:: media/agol_image58.png
+.. |agol_image58| image:: ../media/agol_image58.png
    :width: 6.5in
    :height: 3.31944in
-.. |agol_image59| image:: media/agol_image59.png
+.. |agol_image59| image:: ../media/agol_image59.png
    :width: 6.5in
    :height: 3.31944in
-.. |agol_image60| image:: media/agol_image60.png
+.. |agol_image60| image:: ../media/agol_image60.png
    :width: 6.5in
    :height: 3.31944in
-.. |agol_image61| image:: media/agol_image61.png
+.. |agol_image61| image:: ../media/agol_image61.png
    :width: 6.5in
    :height: 3.31944in
-.. |agol_image62| image:: media/agol_image62.png
+.. |agol_image62| image:: ../media/agol_image62.png
    :width: 6.5in
    :height: 3.94444in
-.. |agol_image63| image:: media/agol_image63.png
+.. |agol_image63| image:: ../media/agol_image63.png
    :width: 6.5in
    :height: 3.94444in
-.. |agol_image64| image:: media/agol_image64.png
+.. |agol_image64| image:: ../media/agol_image64.png
    :width: 2.4654in
    :height: 3.72396in
-.. |agol_image65| image:: media/agol_image65.png
+.. |agol_image65| image:: ../media/agol_image65.png
    :width: 2.06771in
    :height: 3.5151in
-.. |agol_image66| image:: media/agol_image66.png
+.. |agol_image66| image:: ../media/agol_image66.png
    :width: 2.04688in
    :height: 3.47263in
-.. |agol_image67| image:: media/agol_image67.png
+.. |agol_image67| image:: ../media/agol_image67.png
    :width: 5.96354in
    :height: 4.14056in
-.. |agol_image68| image:: media/agol_image68.png
+.. |agol_image68| image:: ../media/agol_image68.png
    :width: 3.84896in
    :height: 3.59752in
-.. |agol_image69| image:: media/agol_image69.png
+.. |agol_image69| image:: ../media/agol_image69.png
    :width: 2.67188in
    :height: 4.54515in
-.. |agol_image70| image:: media/agol_image70.png
+.. |agol_image70| image:: ../media/agol_image70.png
    :width: 4.93603in
    :height: 2.97396in
-.. |agol_image71| image:: media/agol_image71.png
+.. |agol_image71| image:: ../media/agol_image71.png
    :width: 6.5in
    :height: 4.30556in
-.. |agol_image72| image:: media/agol_image72.png
+.. |agol_image72| image:: ../media/agol_image72.png
    :width: 3.95313in
    :height: 3.1162in
-.. |agol_image73| image:: media/agol_image73.png
+.. |agol_image73| image:: ../media/agol_image73.png
    :width: 6.5in
    :height: 3.94444in
-.. |agol_image74| image:: media/agol_image74.png
+.. |agol_image74| image:: ../media/agol_image74.png
    :width: 6.5i
    :height: 3.94444in
-.. |agol_image75| image:: media/agol_image75.png
+.. |agol_image75| image:: ../media/agol_image75.png
    :width: 6.5in
    :height: 3.94444in
-.. |agol_image76| image:: media/agol_image76.png
+.. |agol_image76| image:: ../media/agol_image76.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image77| image:: media/agol_image77.png
+.. |agol_image77| image:: ../media/agol_image77.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image78| image:: media/agol_image78.png
+.. |agol_image78| image:: ../media/agol_image78.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image79| image:: media/agol_image79.png
+.. |agol_image79| image:: ../media/agol_image79.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image80| image:: media/agol_image80.png
+.. |agol_image80| image:: ../media/agol_image80.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image81| image:: media/agol_image81.png
+.. |agol_image81| image:: ../media/agol_image81.png
    :width: 6.5in
    :height: 3.375in
-.. |agol_image82| image:: media/agol_image82.png
+.. |agol_image82| image:: ../media/agol_image82.png
    :width: 2.52604in
    :height: 3.69782in
-.. |agol_image83| image:: media/agol_image83.png
+.. |agol_image83| image:: ../media/agol_image83.png
    :width: 6.5in
    :height: 3.05556in
-.. |agol_image84| image:: media/agol_image84.png
+.. |agol_image84| image:: ../media/agol_image84.png
    :width: 6.5in
    :height: 3.05556in

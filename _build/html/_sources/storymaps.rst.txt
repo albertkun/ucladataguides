@@ -5,18 +5,17 @@ Getting Started
 ~~~~~~~~~~~~~~~
 
 *Note: This tutorial uses data downloaded from Los Angeles Open Data
-portal (see: \ `Quick Visual Guide to Visualizing Data on LA Open Data
-Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )*
+portal (see: Quick Visual Guide to Visualizing Data on LA Open Data
+Portal)*
 
-1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps: \ `Nine Steps to Great
+1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating StoryMaps: \ `Nine Steps to Great
    Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
 
 2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if applicable.
 
-   a. *Note: Refer to \ `Quick Visual Guide to Visualizing Data on ArcGIS
-      Online <https://docs.google.com/document/d/1jeKLh-URguL5SewQghD8Pt2NKEXDkTetGL3uVmqX3A4/edit#heading=h.j1l7kcnj5w20>`__\ for
-      directions on how to setup an Esri Public Account*
+   a. *Note: Refer to Quick Visual Guide to Visualizing Data on ArcGIS
+      Online for directions on how to setup an Esri Public Account*
 
 3. Select **Create a new story** and begin adding images, videos and content.
 
@@ -29,7 +28,7 @@ Designing your StoryMap
 
    |sm_image0|
 
-ESRI StoryMaps consists of “content blocks" these have different types,
+Esri StoryMaps consists of “content blocks" these have different types,
 such as pictures, text, and maps.
 
 Adding Content Blocks

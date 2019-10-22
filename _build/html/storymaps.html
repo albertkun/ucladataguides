@@ -82,17 +82,19 @@
               <p class="caption"><span class="caption-text">Table of Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Intro</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html">Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="excel.html">Quick Visual Guide to Cleaning Data in Microsoft Excel</a></li>
-<li class="toctree-l1"><a class="reference internal" href="agol.html">Quick Visual Guide to Visualizing Data in ArcGIS Online</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Visual Guide to Visualizing Data using Esri StoryMaps</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting Started</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#designing-your-storymap">Designing your StoryMap</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adding-content-blocks">Adding Content Blocks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adding-a-sidecar">Adding a Sidecar</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#creating-an-express-map">Creating an Express Map</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adding-an-existing-arcgis-online-web-map">Adding an Existing ArcGIS Online Web Map</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#publishing-sharing-your-story-map">Publishing &amp; Sharing your Story Map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="working_with_data.html">Guides for working with data</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="working_with_mapping.html">Guides for working with mapping</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="agol.html">Quick Visual Guide to Visualizing Data in ArcGIS Online</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Quick Visual Guide to Visualizing Data using Esri StoryMaps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#designing-your-storymap">Designing your StoryMap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-content-blocks">Adding Content Blocks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-a-sidecar">Adding a Sidecar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-an-express-map">Creating an Express Map</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adding-an-existing-arcgis-online-web-map">Adding an Existing ArcGIS Online Web Map</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#publishing-sharing-your-story-map">Publishing &amp; Sharing your Story Map</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -140,6 +142,8 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
+          <li><a href="working_with_mapping.html">Guides for working with mapping</a> &raquo;</li>
+        
       <li>Quick Visual Guide to Visualizing Data using Esri StoryMaps</li>
     
     
@@ -164,115 +168,111 @@
 <div class="section" id="getting-started">
 <h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
 <p><em>Note: This tutorial uses data downloaded from Los Angeles Open Data
-portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
-Portal &lt;https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing&gt;`__)</em></p>
+portal (see: Quick Visual Guide to Visualizing Data on LA Open Data
+Portal)</em></p>
 <ol class="arabic simple">
-<li><p>StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating Story Maps: <a class="reference external" href="https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407">Nine Steps to Great
-Storytelling</a></p></li>
-<li><p>Navigate to ArcGIS StoryMaps (<a class="reference external" href="https://storymaps.arcgis.com/stories">https://storymaps.arcgis.com/stories</a>) and login if applicable.</p>
-<ol class="loweralpha simple">
-<li><p><em>Note: Refer to `Quick Visual Guide to Visualizing Data on ArcGIS
-Online &lt;https://docs.google.com/document/d/1jeKLh-URguL5SewQghD8Pt2NKEXDkTetGL3uVmqX3A4/edit#heading=h.j1l7kcnj5w20&gt;`__for
-directions on how to setup an Esri Public Account</em></p></li>
+<li>StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating StoryMaps: <a class="reference external" href="https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407">Nine Steps to Great
+Storytelling</a></li>
+<li>Navigate to ArcGIS StoryMaps (<a class="reference external" href="https://storymaps.arcgis.com/stories">https://storymaps.arcgis.com/stories</a>) and login if applicable.<ol class="loweralpha">
+<li><em>Note: Refer to Quick Visual Guide to Visualizing Data on ArcGIS
+Online for directions on how to setup an Esri Public Account</em></li>
 </ol>
 </li>
-<li><p>Select <strong>Create a new story</strong> and begin adding images, videos and content.</p></li>
+<li>Select <strong>Create a new story</strong> and begin adding images, videos and content.</li>
 </ol>
 </div>
 <div class="section" id="designing-your-storymap">
 <h2>Designing your StoryMap<a class="headerlink" href="#designing-your-storymap" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Click <strong>Design</strong> to customize your StoryMap theme, cover, accent colors, font, &amp; add a logo.</p></li>
+<li>Click <strong>Design</strong> to customize your StoryMap theme, cover, accent colors, font, &amp; add a logo.</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/sm_image0.png"><img alt="sm_image0" src="_images/sm_image0.png" style="width: 6.48123in; height: 3.29688in;" /></a></p>
-</div></blockquote>
-<p>ESRI StoryMaps consists of “content blocks” these have different types,
+<div><a class="reference internal" href="_images/sm_image0.png"><img alt="sm_image0" src="_images/sm_image0.png" style="width: 6.48123in; height: 3.29688in;" /></a></div></blockquote>
+<p>Esri StoryMaps consists of “content blocks” these have different types,
 such as pictures, text, and maps.</p>
 </div>
 <div class="section" id="adding-content-blocks">
 <h2>Adding Content Blocks<a class="headerlink" href="#adding-content-blocks" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Click <strong>Add Content Block</strong></p></li>
+<li>Click <strong>Add Content Block</strong></li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/sm_image1.png"><img alt="sm_image1" src="_images/sm_image1.png" style="width: 6.5in; height: 2.68056in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/sm_image1.png"><img alt="sm_image1" src="_images/sm_image1.png" style="width: 6.5in; height: 2.68056in;" /></a></div></blockquote>
 <ol class="arabic" start="2">
-<li><p>Review the various content block types to build your narrative. Select <strong>Map</strong>.</p>
+<li><p class="first">Review the various content block types to build your narrative. Select <strong>Map</strong>.</p>
 <p><a class="reference internal" href="_images/sm_image2.png"><img alt="sm_image2" src="_images/sm_image2.png" style="width: 6.5in; height: 3.375in;" /></a></p>
 </li>
-<li><p>There are two options for adding maps: a) Create an Express Map and b) Add an existing ArcGIS Online web map.</p></li>
+<li><p class="first">There are two options for adding maps: a) Create an Express Map and b) Add an existing ArcGIS Online web map.</p>
+</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/sm_image3.png"><img alt="sm_image3" src="_images/sm_image3.png" style="width: 5.11979in; height: 3.14284in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/sm_image3.png"><img alt="sm_image3" src="_images/sm_image3.png" style="width: 5.11979in; height: 3.14284in;" /></a></div></blockquote>
 </div>
 <div class="section" id="adding-a-sidecar">
 <h2>Adding a Sidecar<a class="headerlink" href="#adding-a-sidecar" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Sidecars are like Powerpoint or Prezi, where you can add accompanying slides, they are perfect for explaining your pictures,
-graphs, maps, and datasets.</p></li>
+<li>Sidecars are like Powerpoint or Prezi, where you can add accompanying slides, they are perfect for explaining your pictures,
+graphs, maps, and datasets.</li>
 </ol>
 <blockquote>
 <div><p><a class="reference internal" href="_images/sm_image4.png"><img alt="sm_image4" src="_images/sm_image4.png" style="width: 2.72396in; height: 3.15691in;" /></a></p>
 <p><a class="reference internal" href="_images/sm_image5.png"><img alt="sm_image5" src="_images/sm_image5.png" style="width: 6.5in; height: 3.05556in;" /></a><a class="reference internal" href="_images/sm_image6.png"><img alt="sm_image6" src="_images/sm_image6.png" style="width: 6.5in; height: 3.05556in;" /></a></p>
 </div></blockquote>
 <ol class="arabic simple" start="2">
-<li><p>For an introduction to sidecar, see Esri’s <a class="reference external" href="https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/">6 Ways to Use Sidecar in the New ArcGIS StoryMaps</a></p></li>
+<li>For an introduction to sidecar, see Esri’s <a class="reference external" href="https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/">6 Ways to Use Sidecar in the New ArcGIS StoryMaps</a></li>
 </ol>
 </div>
 <div class="section" id="creating-an-express-map">
 <h2>Creating an Express Map<a class="headerlink" href="#creating-an-express-map" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p>Express Maps are perfect for creating quick and simple maps. Select <strong>Create an express map</strong>.</p>
+<li><p class="first">Express Maps are perfect for creating quick and simple maps. Select <strong>Create an express map</strong>.</p>
 <p><a class="reference internal" href="_images/sm_image7.png"><img alt="sm_image7" src="_images/sm_image7.png" style="width: 6.5in; height: 3.38889in;" /></a></p>
 </li>
-<li><p>The <strong>Search by location</strong> bar allows users to quickly locate specific sites.</p>
+<li><p class="first">The <strong>Search by location</strong> bar allows users to quickly locate specific sites.</p>
 <p><a class="reference internal" href="_images/sm_image8.png"><img alt="sm_image8" src="_images/sm_image8.png" style="width: 6.5in; height: 3.38889in;" /></a></p>
 </li>
-<li><p>Search for Los Angeles, CA.</p>
+<li><p class="first">Search for Los Angeles, CA.</p>
 <p><a class="reference internal" href="_images/sm_image9.png"><img alt="sm_image9" src="_images/sm_image9.png" style="width: 6.5in; height: 3.38889in;" /></a></p>
 </li>
-<li><p>Click <strong>Add to map</strong> from results window.</p>
+<li><p class="first">Click <strong>Add to map</strong> from results window.</p>
 <p><a class="reference internal" href="_images/sm_image10.png"><img alt="sm_image10" src="_images/sm_image10.png" style="width: 6.5in; height: 3.38889in;" /></a></p>
 </li>
-<li><p>For more information on when and how to use Express Maps see Esri’s <a class="reference external" href="https://community.esri.com/docs/DOC-13164-introducing-express-maps-making-simple-maps-simply">Introducing Express Maps: Making Simple Maps
-Simply.</a></p></li>
+<li><p class="first">For more information on when and how to use Express Maps see Esri’s <a class="reference external" href="https://community.esri.com/docs/DOC-13164-introducing-express-maps-making-simple-maps-simply">Introducing Express Maps: Making Simple Maps
+Simply.</a></p>
+</li>
 </ol>
 </div>
 <div class="section" id="adding-an-existing-arcgis-online-web-map">
 <h2>Adding an Existing ArcGIS Online Web Map<a class="headerlink" href="#adding-an-existing-arcgis-online-web-map" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>The second option for adding a map block consists of adding a web
+<li>The second option for adding a map block consists of adding a web
 map. Let’s add the map we created in the previous <a class="reference external" href="https://docs.google.com/document/d/1jeKLh-URguL5SewQghD8Pt2NKEXDkTetGL3uVmqX3A4/edit">Quick Guide to Visualizing Data in ArcGIS
-Online</a>.</p></li>
+Online</a>.</li>
 </ol>
 <blockquote>
 <div><p><a class="reference internal" href="_images/sm_image11.png"><img alt="sm_image11" src="_images/sm_image11.png" style="width: 6.03646in; height: 3.56964in;" /></a></p>
 <ol class="loweralpha simple">
-<li><p><em>Note: Web Maps must be shared publicly in order to be viewed by
+<li><em>Note: Web Maps must be shared publicly in order to be viewed by
 people other than yourself without requiring a login. Make sure to
 check your sharing settings before adding a web map. Click on the
-information icon to direct you to the map’s description page.</em></p></li>
+information icon to direct you to the map’s description page.</em></li>
 </ol>
 </div></blockquote>
 <blockquote>
 <div><p><a class="reference internal" href="_images/sm_image12.png"><img alt="sm_image12" src="_images/sm_image12.png" style="width: 2.34896in; height: 2.46028in;" /></a></p>
 <ol class="loweralpha simple" start="2">
-<li><p>Observe the sharing status statement on the right pane. To update the
-sharing setting click on the Share button.</p></li>
+<li>Observe the sharing status statement on the right pane. To update the
+sharing setting click on the Share button.</li>
 </ol>
 <p><a class="reference internal" href="_images/sm_image13.png"><img alt="sm_image13" src="_images/sm_image13.png" style="width: 6.5in; height: 3.05556in;" /></a></p>
 <ol class="loweralpha simple" start="3">
-<li><p>Check the box next to Everyone(Public) and click OK.</p></li>
+<li>Check the box next to Everyone(Public) and click OK.</li>
 </ol>
 </div></blockquote>
 <blockquote>
-<div><p><a class="reference internal" href="_images/sm_image14.png"><img alt="sm_image14" src="_images/sm_image14.png" style="width: 3.15104in; height: 3.53944in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/sm_image14.png"><img alt="sm_image14" src="_images/sm_image14.png" style="width: 3.15104in; height: 3.53944in;" /></a></div></blockquote>
 <ol class="arabic" start="2">
-<li><p>Once the map is placed, try different block display options such as <strong>float</strong>, <strong>small</strong>, <strong>medium</strong> or <strong>large</strong>.</p>
+<li><p class="first">Once the map is placed, try different block display options such as <strong>float</strong>, <strong>small</strong>, <strong>medium</strong> or <strong>large</strong>.</p>
 <p><a class="reference internal" href="_images/sm_image15.png"><img alt="sm_image15" src="_images/sm_image15.png" style="width: 6.5in; height: 3.88889in;" /></a></p>
 </li>
 </ol>
@@ -280,16 +280,16 @@ sharing setting click on the Share button.</p></li>
 <div class="section" id="publishing-sharing-your-story-map">
 <h2>Publishing &amp; Sharing your Story Map<a class="headerlink" href="#publishing-sharing-your-story-map" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p>When you are finished editing and designing your Story Map, click <strong>Publish</strong> at the beginning of the StoryMap to update the
+<li><p class="first">When you are finished editing and designing your Story Map, click <strong>Publish</strong> at the beginning of the StoryMap to update the
 sharing settings of your StoryMap.</p>
 <p><a class="reference internal" href="_images/sm_image16.png"><img alt="sm_image16" src="_images/sm_image16.png" style="width: 6.5in; height: 3.05556in;" /></a></p>
 </li>
-<li><p>Select your preferred sharing type. If you want anyone to access your
-StoryMap make sure to select <strong>Everyone</strong>. Click <strong>Publish Story</strong>.</p></li>
+<li><p class="first">Select your preferred sharing type. If you want anyone to access your
+StoryMap make sure to select <strong>Everyone</strong>. Click <strong>Publish Story</strong>.</p>
+</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/sm_image17.png"><img alt="sm_image17" src="_images/sm_image17.png" style="width: 6.5in; height: 4.97222in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/sm_image17.png"><img alt="sm_image17" src="_images/sm_image17.png" style="width: 6.5in; height: 4.97222in;" /></a></div></blockquote>
 </div>
 </div>
 

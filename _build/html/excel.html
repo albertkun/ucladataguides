@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Quick Visual Guide to Visualizing Data in ArcGIS Online" href="agol.html" />
+    <link rel="next" title="Guides for working with mapping" href="working_with_mapping.html" />
     <link rel="prev" title="Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal" href="data_portal.html" /> 
 </head>
 
@@ -83,26 +83,29 @@
               <p class="caption"><span class="caption-text">Table of Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Intro</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_portal.html">Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Visual Guide to Cleaning Data in Microsoft Excel</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting Started</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-open-csv-files">How to open CSV files</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#formulas">Formulas</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#question-whats-the-formula-to-combine-the-lat-q2-and-long-r2-columns-into-one">Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one?</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="working_with_data.html">Guides for working with data</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="data_portal.html">Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Quick Visual Guide to Cleaning Data in Microsoft Excel</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-open-csv-files">How to open CSV files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#formulas">Formulas</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#question-whats-the-formula-to-combine-the-lat-q2-and-long-r2-columns-into-one">Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one?</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#question-whats-the-formula-to-combine-the-lat-q2-and-long-r2-columns-into-one-with-a-comma-in-between">Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one with a comma in between?</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#sorting">Sorting</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#filtering">Filtering</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#question-how-many-arrests-were-there-on-january-1st">Question: How many arrests were there on January 1st?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sorting">Sorting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#filtering">Filtering</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#question-how-many-arrests-were-there-on-january-1st">Question: How many arrests were there on January 1st?</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#splitting-content-from-one-cell-into-two-cells">Splitting content from one cell into two cells</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#leading-zeros">Leading Zeros</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#next-guide-joining-data-in-qgis">Next Guide: Joining Data in QGIS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#splitting-content-from-one-cell-into-two-cells">Splitting content from one cell into two cells</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#leading-zeros">Leading Zeros</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#next-guide-joining-data-in-qgis">Next Guide: Joining Data in QGIS</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="agol.html">Quick Visual Guide to Visualizing Data in ArcGIS Online</a></li>
-<li class="toctree-l1"><a class="reference internal" href="storymaps.html">Quick Visual Guide to Visualizing Data using Esri StoryMaps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="working_with_mapping.html">Guides for working with mapping</a></li>
 </ul>
 
             
@@ -148,6 +151,8 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
+          <li><a href="working_with_data.html">Guides for working with data</a> &raquo;</li>
+        
       <li>Quick Visual Guide to Cleaning Data in Microsoft Excel</li>
     
     
@@ -173,47 +178,40 @@
 <h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
 <p>Note: This tutorial uses Los Angeles Police Department Arrest data
 filtered for the month of January downloaded from Los Angeles Open Data
-portal (see: <a class="reference external" href="https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing">Quick Visual Guide to Visualizing Data on LA Open Data
-Portal</a>)</p>
+portal (see: <a class="reference internal" href="data_portal.html#data-portal"><span class="std std-ref">Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal</span></a> )</p>
 </div>
 <div class="section" id="how-to-open-csv-files">
 <h2>How to open CSV files<a class="headerlink" href="#how-to-open-csv-files" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Go to File -&gt; Open</p></li>
-<li><dl class="simple">
-<dt>Select “Text” file</dt><dd><p><a class="reference internal" href="_images/ex_image0.png"><img alt="ex_image0" src="_images/ex_image0.png" style="width: 6.5in; height: 2.79167in;" /></a></p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Select the “LAPD_arrests_2015_january.csv” file:</dt><dd><p><a class="reference internal" href="_images/ex_image1.png"><img alt="ex_image1" src="_images/ex_image1.png" style="width: 5.13021in; height: 3.67434in;" /></a></p>
-</dd>
-</dl>
-</li>
-<li><dl class="simple">
-<dt>Excel always provides a summary of selected information near the bottom:</dt><dd><p><a class="reference internal" href="_images/ex_image2.png"><img alt="ex_image2" src="_images/ex_image2.png" style="width: 4.82292in; height: 3.98958in;" /></a></p>
-</dd>
-</dl>
-</li>
+<li>Go to File -&gt; Open</li>
 </ol>
+<p>2. Select “Text” file
+<a class="reference internal" href="_images/ex_image0.png"><img alt="ex_image0" src="_images/ex_image0.png" style="width: 6.5in; height: 2.79167in;" /></a></p>
+<p>3. Select the “LAPD_arrests_2015_january.csv” file:
+<a class="reference internal" href="_images/ex_image1.png"><img alt="ex_image1" src="_images/ex_image1.png" style="width: 5.13021in; height: 3.67434in;" /></a></p>
+<p>4. Excel always provides a summary of selected information near the bottom:
+<a class="reference internal" href="_images/ex_image2.png"><img alt="ex_image2" src="_images/ex_image2.png" style="width: 4.82292in; height: 3.98958in;" /></a></p>
 <p>Before going forward, let’s make sure our data columns are in good
 order:</p>
-<p>ARST_DATE should be a date field, and ARST_TM should be a Time Field.</p>
-<ol class="arabic simple">
-<li><p>Select the columns:</p></li>
+<blockquote>
+<div>ARST_DATE should be a date field, and ARST_TM should be a Time Field.</div></blockquote>
+<ol class="arabic simple" start="5">
+<li>Select the columns:</li>
 </ol>
 <p><a class="reference internal" href="_images/ex_image3.png"><img alt="ex_image3" src="_images/ex_image3.png" style="width: 6.5in; height: 2.88889in;" /></a></p>
-<p>2. Select dropdown box near the top:
+<p>6. Select dropdown box near the top:
 <a class="reference internal" href="_images/ex_image4.png"><img alt="ex_image4" src="_images/ex_image4.png" style="width: 6.5in; height: 2.88889in;" /></a></p>
-<ol class="arabic simple" start="3">
-<li><p>Then choose “Short Date”:</p></li>
+<ol class="arabic simple" start="7">
+<li>Then choose “Short Date”:</li>
 </ol>
 <p><a class="reference internal" href="_images/ex_image5.png"><img alt="ex_image5" src="_images/ex_image5.png" style="width: 5.64478in; height: 2.50521in;" /></a></p>
-<ol class="arabic simple" start="4">
-<li><p>For ARST_TM choose “Time”:</p></li>
+<ol class="arabic simple" start="8">
+<li>For ARST_TM choose “Time”:</li>
 </ol>
 <p><a class="reference internal" href="_images/ex_image6.png"><img alt="ex_image6" src="_images/ex_image6.png" style="width: 5.60532in; height: 2.49479in;" /></a></p>
-<p>5.Do the same for BKG_DT and BKG_TM as well.</p>
+<ol class="arabic simple" start="9">
+<li>Do the same for BKG_DT and BKG_TM as well.</li>
+</ol>
 </div>
 <div class="section" id="formulas">
 <h2>Formulas<a class="headerlink" href="#formulas" title="Permalink to this headline">¶</a></h2>
@@ -236,7 +234,9 @@ column, then you can use “=A1&amp;B1”</p>
 <p>You will notice that the “ “symbols acts as a seperator. You can go
 ahead and put anything in between those symbols and it will appear in
 between the result.</p>
-<p>Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one with a comma in between?</p>
+</div>
+<div class="section" id="question-whats-the-formula-to-combine-the-lat-q2-and-long-r2-columns-into-one-with-a-comma-in-between">
+<h3>Question: Whats the formula to combine the Lat(Q2) and Long(R2) columns into one with a comma in between?<a class="headerlink" href="#question-whats-the-formula-to-combine-the-lat-q2-and-long-r2-columns-into-one-with-a-comma-in-between" title="Permalink to this headline">¶</a></h3>
 </div>
 </div>
 <div class="section" id="sorting">
@@ -272,75 +272,84 @@ import seamlessly the latitude and longitude need to be in two separate
 columns. Follow the instructions below if the coordinates are in one
 column.</p>
 <ol class="arabic simple">
-<li><p>Select the cell or cells whose contents you want to split.</p>
-<ol class="loweralpha simple">
-<li><p>Important: When you split the contents, they will overwrite the
+<li>Select the cell or cells whose contents you want to split.<ol class="loweralpha">
+<li>Important: When you split the contents, they will overwrite the
 contents in the next cell to the right, so make sure to have an
-empty column there.</p></li>
+empty column there.</li>
 </ol>
 </li>
 </ol>
 <p><a class="reference internal" href="_images/ex_image13.png"><img alt="ex_image13" src="_images/ex_image13.png" style="width: 5.31771in; height: 4.21837in;" /></a></p>
 <ol class="arabic simple" start="2">
-<li><p>On the Data tab, in the Data Tools group, click Text to Columns. The Convert Text to Columns Wizard opens.</p></li>
+<li>On the Data tab, in the Data Tools group, click Text to Columns. The Convert Text to Columns Wizard opens.</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/ex_image14.png"><img alt="ex_image14" src="_images/ex_image14.png" style="width: 6.5in; height: 1.36111in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/ex_image14.png"><img alt="ex_image14" src="_images/ex_image14.png" style="width: 6.5in; height: 1.36111in;" /></a></div></blockquote>
 <p>3. Choose Delimited if it is not already selected, and then click Next.
 <a class="reference internal" href="_images/ex_image15.png"><img alt="ex_image15" src="_images/ex_image15.png" style="width: 6.5in; height: 4.625in;" /></a></p>
-<p>4. Select the delimiter or delimiters to define the places where you
+<ol class="arabic simple" start="4">
+<li>Select the delimiter or delimiters to define the places where you
 want to split the cell content. The Data preview section shows you
-what your content would look like. Click Next.<a class="reference internal" href="_images/ex_image16.png"><img alt="ex_image16" src="_images/ex_image16.png" style="width: 6.5in; height: 4.625in;" /></a></p>
-<p>5. In the Column data format area, select the data format for the new
+what your content would look like. Click Next.</li>
+</ol>
+<p><a class="reference internal" href="_images/ex_image16.png"><img alt="ex_image16" src="_images/ex_image16.png" style="width: 6.5in; height: 4.625in;" /></a></p>
+<ol class="arabic simple" start="5">
+<li>In the Column data format area, select the data format for the new
 columns. By default, the columns have the same data format as the
-original cell. Click Finish.</p>
+original cell. Click Finish.</li>
+</ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/ex_image17.png"><img alt="ex_image17" src="_images/ex_image17.png" style="width: 6.5in; height: 4.625in;" /></a></p>
-</div></blockquote>
-<p>6. The coordinates are now split into two columns based on the comma
+<div><a class="reference internal" href="_images/ex_image17.png"><img alt="ex_image17" src="_images/ex_image17.png" style="width: 6.5in; height: 4.625in;" /></a></div></blockquote>
+<ol class="arabic simple" start="6">
+<li>The coordinates are now split into two columns based on the comma
 delimiter. However, the new columns still have the single
 parenthesis. To remove the parentheses add two new columns to the
-right of each new coordinate column.</p>
+right of each new coordinate column.</li>
+</ol>
 <p><a class="reference internal" href="_images/ex_image18.png"><img alt="ex_image18" src="_images/ex_image18.png" style="width: 5.08333in; height: 4.52107in;" /></a></p>
 <p><a class="reference internal" href="_images/ex_image19.png"><img alt="ex_image19" src="_images/ex_image19.png" style="width: 5.13021in; height: 4.57115in;" /></a></p>
-<p>7. Type the following equation in the cell to the right of the first
-column: =RIGHT(Q2, LEN(Q2)-1).</p>
+<ol class="arabic simple" start="7">
+<li>Type the following equation in the cell to the right of the first
+column: =RIGHT(Q2, LEN(Q2)-1).</li>
+</ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/ex_image20.png"><img alt="ex_image20" src="_images/ex_image20.png" style="width: 6.57813in; height: 1.14612in;" /></a></p>
-</div></blockquote>
-<p>8. To copy the equation to the remaining rows, select the cell and hover
+<div><a class="reference internal" href="_images/ex_image20.png"><img alt="ex_image20" src="_images/ex_image20.png" style="width: 6.57813in; height: 1.14612in;" /></a></div></blockquote>
+<ol class="arabic simple" start="8">
+<li>To copy the equation to the remaining rows, select the cell and hover
 over the bottom right corner until the cursor becomes a cross.
-Double-click.</p>
+Double-click.</li>
+</ol>
 <p><a class="reference internal" href="_images/ex_image21.png"><img alt="ex_image21" src="_images/ex_image21.png" style="width: 4.76563in; height: 2.15102in;" /></a></p>
-<p>9. Type the following equation in the cell to the right of the second
+<ol class="arabic simple" start="9">
+<li>Type the following equation in the cell to the right of the second
 new location column: =LEFT(S2, LEN(S2)-1). Repeat the process for
 the longitude column and copy the formula into the remaining
-cells. Make sure to label the new columns ‘lat’ and ‘lon’.</p>
+cells. Make sure to label the new columns ‘lat’ and ‘lon’.</li>
+</ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/ex_image22.png"><img alt="ex_image22" src="_images/ex_image22.png" style="width: 3.98438in; height: 3.74249in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/ex_image22.png"><img alt="ex_image22" src="_images/ex_image22.png" style="width: 3.98438in; height: 3.74249in;" /></a></div></blockquote>
 </div>
 <div class="section" id="leading-zeros">
 <h2>Leading Zeros<a class="headerlink" href="#leading-zeros" title="Permalink to this headline">¶</a></h2>
-<p>1. Sometimes when moving data between software, leading zeros are
+<ol class="arabic simple">
+<li>Sometimes when moving data between software, leading zeros are
 dropped which change the way you can use a particular dataset.
-This is particularly true when working with zip codes.</p>
-<blockquote>
-<div><p><a class="reference internal" href="_images/ex_image23.png"><img alt="ex_image23" src="_images/ex_image23.png" style="width: 3.83854in; height: 3.05662in;" /></a></p>
-</div></blockquote>
-<p>2. To add back the leading zeros, highlight the column and right-click
-to select Format Cells. Then select Custom.</p>
-<blockquote>
-<div><p><a class="reference internal" href="_images/ex_image24.png"><img alt="ex_image24" src="_images/ex_image24.png" style="width: 4.99479in; height: 4.45049in;" /></a></p>
-</div></blockquote>
-<ol class="arabic simple" start="3">
-<li><p>Type ‘00000’ in the Type field and click ‘OK’.<a class="reference internal" href="_images/ex_image25.png"><img alt="ex_image25" src="_images/ex_image25.png" style="width: 4.81566in; height: 4.29688in;" /></a></p></li>
-<li><p>Leading zeros have now been added back to your field!</p></li>
+This is particularly true when working with zip codes.</li>
 </ol>
 <blockquote>
-<div><p><a class="reference internal" href="_images/ex_image26.png"><img alt="ex_image26" src="_images/ex_image26.png" style="width: 4.53125in; height: 2.86458in;" /></a></p>
-</div></blockquote>
+<div><a class="reference internal" href="_images/ex_image23.png"><img alt="ex_image23" src="_images/ex_image23.png" style="width: 3.83854in; height: 3.05662in;" /></a></div></blockquote>
+<ol class="arabic simple" start="2">
+<li>To add back the leading zeros, highlight the column and right-click
+to select Format Cells. Then select Custom.</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="_images/ex_image24.png"><img alt="ex_image24" src="_images/ex_image24.png" style="width: 4.99479in; height: 4.45049in;" /></a></div></blockquote>
+<ol class="arabic simple" start="3">
+<li>Type ‘00000’ in the Type field and click ‘OK’.<a class="reference internal" href="_images/ex_image25.png"><img alt="ex_image25" src="_images/ex_image25.png" style="width: 4.81566in; height: 4.29688in;" /></a></li>
+<li>Leading zeros have now been added back to your field!</li>
+</ol>
+<blockquote>
+<div><a class="reference internal" href="_images/ex_image26.png"><img alt="ex_image26" src="_images/ex_image26.png" style="width: 4.53125in; height: 2.86458in;" /></a></div></blockquote>
 </div>
 <div class="section" id="next-guide-joining-data-in-qgis">
 <h2>Next Guide: Joining Data in QGIS<a class="headerlink" href="#next-guide-joining-data-in-qgis" title="Permalink to this headline">¶</a></h2>
@@ -358,7 +367,7 @@ you need to do what is called a spatial join.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="agol.html" class="btn btn-neutral float-right" title="Quick Visual Guide to Visualizing Data in ArcGIS Online" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="working_with_mapping.html" class="btn btn-neutral float-right" title="Guides for working with mapping" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="data_portal.html" class="btn btn-neutral float-left" title="Quick Visual Guide to Visualizing Data on the Los Angeles Open Data Portal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -6,8 +6,7 @@ Getting Started
 
 Note: This tutorial uses Los Angeles Police Department Arrest data
 filtered for the month of January downloaded from Los Angeles Open Data
-portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
-Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )
+portal (see: :ref:`data_portal` )
 
 How to open CSV files
 ---------------------
@@ -15,35 +14,35 @@ How to open CSV files
 1. Go to File -> Open
 
 2. Select “Text” file
-      \ |ex_image0|
+|ex_image0|
 
 3. Select the “LAPD_arrests_2015_january.csv” file:
-      \ |ex_image1|
+|ex_image1|
 
 4. Excel always provides a summary of selected information near the bottom:
-      \ |ex_image2|\ 
+|ex_image2| 
 
 Before going forward, let’s make sure our data columns are in good
 order:
 
-ARST_DATE should be a date field, and ARST_TM should be a Time Field.
+   ARST_DATE should be a date field, and ARST_TM should be a Time Field.
 
-1. Select the columns:
+5. Select the columns:
 
 |ex_image3|
 
-2. Select dropdown box near the top:
-\ |ex_image4|
+6. Select dropdown box near the top:
+|ex_image4|
 
-3. Then choose “Short Date”:
+7. Then choose “Short Date”:
 
 |ex_image5|
 
-4. For ARST_TM choose “Time”:
+8. For ARST_TM choose “Time”:
 
 |ex_image6|
 
-5.Do the same for BKG_DT and BKG_TM as well.
+9. Do the same for BKG_DT and BKG_TM as well.
 
 Formulas
 --------
@@ -79,7 +78,7 @@ ahead and put anything in between those symbols and it will appear in
 between the result.
 
 Question: Whats the formula to combine the Lat(\ Q2) and Long(\ R2) columns into one with a comma in between?
-                                                                                                             
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''                                                                                                             
 
 Sorting
 -------
@@ -145,43 +144,45 @@ column.
 \ |ex_image15|
 
 4. Select the delimiter or delimiters to define the places where you
-want to split the cell content. The Data preview section shows you
-what your content would look like. Click Next.\ |ex_image16|
+   want to split the cell content. The Data preview section shows you
+   what your content would look like. Click Next.
+
+|ex_image16|
 
 5. In the Column data format area, select the data format for the new
-columns. By default, the columns have the same data format as the
-original cell. Click Finish.
+   columns. By default, the columns have the same data format as the
+   original cell. Click Finish.
 
 ..
 
    |ex_image17|
 
 6. The coordinates are now split into two columns based on the comma
-delimiter. However, the new columns still have the single
-parenthesis. To remove the parentheses add two new columns to the
-right of each new coordinate column.
+   delimiter. However, the new columns still have the single
+   parenthesis. To remove the parentheses add two new columns to the
+   right of each new coordinate column.
 
 |ex_image18|
 
 |ex_image19|
 
 7. Type the following equation in the cell to the right of the first
-column: =RIGHT(Q2, LEN(Q2)-1).
+   column: =RIGHT(Q2, LEN(Q2)-1).
 
 ..
 
    |ex_image20|
 
 8. To copy the equation to the remaining rows, select the cell and hover
-over the bottom right corner until the cursor becomes a cross.
-Double-click.
+   over the bottom right corner until the cursor becomes a cross.
+   Double-click.
 
 |ex_image21|
 
 9. Type the following equation in the cell to the right of the second
-new location column: =LEFT(S2, LEN(S2)-1). Repeat the process for
-the longitude column and copy the formula into the remaining
-cells. Make sure to label the new columns ‘lat’ and ‘lon’.
+   new location column: =LEFT(S2, LEN(S2)-1). Repeat the process for
+   the longitude column and copy the formula into the remaining
+   cells. Make sure to label the new columns ‘lat’ and ‘lon’.
 
 ..
 
@@ -191,15 +192,15 @@ Leading Zeros
 -------------
 
 1. Sometimes when moving data between software, leading zeros are
-dropped which change the way you can use a particular dataset.
-This is particularly true when working with zip codes.
+   dropped which change the way you can use a particular dataset.
+   This is particularly true when working with zip codes.
 
 ..
 
    |ex_image23|
 
 2. To add back the leading zeros, highlight the column and right-click
-to select Format Cells. Then select Custom.
+   to select Format Cells. Then select Custom.
 
 ..
 

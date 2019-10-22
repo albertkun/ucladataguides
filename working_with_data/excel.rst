@@ -6,8 +6,7 @@ Getting Started
 
 Note: This tutorial uses Los Angeles Police Department Arrest data
 filtered for the month of January downloaded from Los Angeles Open Data
-portal (see: `Quick Visual Guide to Visualizing Data on LA Open Data
-Portal <https://drive.google.com/file/d/140rq7sU548VdtYMkiQ8SLIMDLl7smoJE/view?usp=sharing>`__\ )
+portal (see: :ref:`data_portal` )
 
 How to open CSV files
 ---------------------
@@ -222,84 +221,84 @@ Sometimes you want to summarize data by location. For example you want
 to see the number of arrests by zipcodes or neighborhoods. To do this,
 you need to do what is called a spatial join.
 
-.. |ex_image0| image:: media/ex_image0.png
+.. |ex_image0| image:: ../media/ex_image0.png
    :width: 6.5in
    :height: 2.79167in
-.. |ex_image1| image:: media/ex_image1.png
+.. |ex_image1| image:: ../media/ex_image1.png
    :width: 5.13021in
    :height: 3.67434in
-.. |ex_image2| image:: media/ex_image2.png
+.. |ex_image2| image:: ../media/ex_image2.png
    :width: 4.82292in
    :height: 3.98958in
-.. |ex_image3| image:: media/ex_image3.png
+.. |ex_image3| image:: ../media/ex_image3.png
    :width: 6.5in
    :height: 2.88889in
-.. |ex_image4| image:: media/ex_image4.png
+.. |ex_image4| image:: ../media/ex_image4.png
    :width: 6.5in
    :height: 2.88889in
-.. |ex_image5| image:: media/ex_image5.png
+.. |ex_image5| image:: ../media/ex_image5.png
    :width: 5.64478in
    :height: 2.50521in
-.. |ex_image6| image:: media/ex_image6.png
+.. |ex_image6| image:: ../media/ex_image6.png
    :width: 5.60532in
    :height: 2.49479in
-.. |ex_image7| image:: media/ex_image7.png
+.. |ex_image7| image:: ../media/ex_image7.png
    :width: 1.9375in
    :height: 1.30208in
-.. |ex_image8| image:: media/ex_image8.png
+.. |ex_image8| image:: ../media/ex_image8.png
    :width: 6.5in
    :height: 1.76389in
-.. |ex_image9| image:: media/ex_image9.png
+.. |ex_image9| image:: ../media/ex_image9.png
    :width: 6.5in
    :height: 1.56944in
-.. |ex_image10| image:: media/ex_image10.png
+.. |ex_image10| image:: ../media/ex_image10.png
    :width: 1.94814in
    :height: 3.03646in
-.. |ex_image11| image:: media/ex_image11.png
+.. |ex_image11| image:: ../media/ex_image11.png
    :width: 2.75521in
    :height: 3.67874in
-.. |ex_image12| image:: media/ex_image12.png
+.. |ex_image12| image:: ../media/ex_image12.png
    :width: 2.15104in
    :height: 2.97414in
-.. |ex_image13| image:: media/ex_image13.png
+.. |ex_image13| image:: ../media/ex_image13.png
    :width: 5.31771in
    :height: 4.21837in
-.. |ex_image14| image:: media/ex_image14.png
+.. |ex_image14| image:: ../media/ex_image14.png
    :width: 6.5in
    :height: 1.36111in
-.. |ex_image15| image:: media/ex_image15.png
+.. |ex_image15| image:: ../media/ex_image15.png
    :width: 6.5in
    :height: 4.625in
-.. |ex_image16| image:: media/ex_image16.png
+.. |ex_image16| image:: ../media/ex_image16.png
    :width: 6.5in
    :height: 4.625in
-.. |ex_image17| image:: media/ex_image17.png
+.. |ex_image17| image:: ../media/ex_image17.png
    :width: 6.5in
    :height: 4.625in
-.. |ex_image18| image:: media/ex_image18.png
+.. |ex_image18| image:: ../media/ex_image18.png
    :width: 5.08333in
    :height: 4.52107in
-.. |ex_image19| image:: media/ex_image19.png
+.. |ex_image19| image:: ../media/ex_image19.png
    :width: 5.13021in
    :height: 4.57115in
-.. |ex_image20| image:: media/ex_image20.png
+.. |ex_image20| image:: ../media/ex_image20.png
    :width: 6.57813in
    :height: 1.14612in
-.. |ex_image21| image:: media/ex_image21.png
+.. |ex_image21| image:: ../media/ex_image21.png
    :width: 4.76563in
    :height: 2.15102in
-.. |ex_image22| image:: media/ex_image22.png
+.. |ex_image22| image:: ../media/ex_image22.png
    :width: 3.98438in
    :height: 3.74249in
-.. |ex_image23| image:: media/ex_image23.png
+.. |ex_image23| image:: ../media/ex_image23.png
    :width: 3.83854in
    :height: 3.05662in
-.. |ex_image24| image:: media/ex_image24.png
+.. |ex_image24| image:: ../media/ex_image24.png
    :width: 4.99479in
    :height: 4.45049in
-.. |ex_image25| image:: media/ex_image25.png
+.. |ex_image25| image:: ../media/ex_image25.png
    :width: 4.81566in
    :height: 4.29688in
-.. |ex_image26| image:: media/ex_image26.png
+.. |ex_image26| image:: ../media/ex_image26.png
    :width: 4.53125in
    :height: 2.86458in
