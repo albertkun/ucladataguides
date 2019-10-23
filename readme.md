@@ -1,5 +1,11 @@
 # Welcome to the UCLA Data Guides Repository!
 
+## What is this repo?
+
+This repo is used to create guides for UCLA data analysis! You can find the guides published on [https://ucladataguides.readthedocs.io](https://ucladataguides.readthedocs.io)
+
+## How to contribute
+
 If you would like to contribute guides please follow the steps below:
 
 1) Create guide in any format (docx, google docs, text editor, etc.)
