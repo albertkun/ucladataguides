@@ -265,7 +265,7 @@ you need to do what is called a spatial join.
    :height: 4.21837in
 .. |ex_image14| image:: ../media/ex_image14.png
    :width: 6.5in
-   :height: 1.36111in
+   :height: .85in
 .. |ex_image15| image:: ../media/ex_image15.png
    :width: 6.5in
    :height: 4.625in
