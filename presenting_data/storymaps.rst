@@ -24,6 +24,8 @@ Designing your StoryMap
 
 1. Click **Design** to customize your StoryMap theme, cover, accent colors, font, & add a logo.
 
+
+
 ..
 
    |sm_image0|
@@ -36,15 +38,21 @@ Adding Content Blocks
 
 1. Click **Add Content Block**
 
+
+
 ..
 
    |sm_image1|
 
 2. Review the various content block types to build your narrative. Select **Map**.
 
+..
+
    |sm_image2|
 
 3. There are two options for adding maps: a) Create an Express Map and b) Add an existing ArcGIS Online web map.
+
+
 
 ..
 
@@ -56,11 +64,19 @@ Adding a Sidecar
 1. Sidecars are like Powerpoint or Prezi, where you can add accompanying slides, they are perfect for explaining your pictures, 
    graphs, maps, and datasets.
 
+
+
 ..
 
    |sm_image4|
 
-   |sm_image5|\ |sm_image6|
+..
+
+   |sm_image5|
+
+..
+   
+   |sm_image6|
 
 2. For an introduction to sidecar, see Esri’s \ `6 Ways to Use Sidecar in the New ArcGIS StoryMaps <https://www.esri.com/arcgis-blog/products/arcgis-storymaps/mapping/6-ways-to-use-sidecar-in-the-new-arcgis-storymaps/>`__
 
@@ -69,17 +85,25 @@ Creating an Express Map
 
 1. Express Maps are perfect for creating quick and simple maps. Select **Create an express map**.
 
+..
+
    |sm_image7|
 
 2. The **Search by location** bar allows users to quickly locate specific sites.
+
+..
 
    |sm_image8|
 
 3. Search for Los Angeles, CA.
 
+..
+
    |sm_image9|
 
 4. Click **Add to map** from results window.
+
+..
 
    |sm_image10|
 
@@ -93,6 +117,8 @@ Adding an Existing ArcGIS Online Web Map
    map. Let’s add the map we created in the previous \ `Quick Guide to Visualizing Data in ArcGIS
    Online <https://docs.google.com/document/d/1jeKLh-URguL5SewQghD8Pt2NKEXDkTetGL3uVmqX3A4/edit>`__\ .
 
+
+
 ..
 
    |sm_image11|
@@ -102,6 +128,8 @@ Adding an Existing ArcGIS Online Web Map
       check your sharing settings before adding a web map. Click on the
       information icon to direct you to the map’s description page.*
 
+
+
 ..
 
    |sm_image12|
@@ -109,15 +137,21 @@ Adding an Existing ArcGIS Online Web Map
    b. Observe the sharing status statement on the right pane. To update the
       sharing setting click on the Share button.
 
+..
+
    |sm_image13|
 
    c. Check the box next to Everyone(Public) and click OK.
+
+
 
 ..
 
    |sm_image14|
 
 2. Once the map is placed, try different block display options such as **float**, **small**, **medium** or **large**.
+
+..
 
    |sm_image15|
 
@@ -127,10 +161,14 @@ Publishing & Sharing your Story Map
 1. When you are finished editing and designing your Story Map, click **Publish** at the beginning of the StoryMap to update the
    sharing settings of your StoryMap.
 
+..
+
    |sm_image16|
 
 2. Select your preferred sharing type. If you want anyone to access your
    StoryMap make sure to select **Everyone**. Click **Publish Story**.
+
+
 
 ..
 

@@ -58,9 +58,7 @@ Adding Point Data (Less than 2,000 records*) in Map View
    Portal. Make sure you have the location data cleaned up!
 
 
-
-   a. *Note: If you data has not been cleaned up yet see:\ `Quick Visual
-      Guide for Cleaning Data in Microsoft Excel <https://docs.google.com/document/d/13GJ6NBgIHUQkQzAbFcefO7qHfbxom1BxQMFXom3WJ60/>`__\*
+   a. Note: If your data has not been cleaned up yet see :ref:`excel_cleaning`.
 
    b. Note: The maximum number of records for adding data via this
       method 2,000. If you attempt to use your arrest data from the
@@ -379,14 +377,21 @@ Attribute Based Symbology
    methods see Esri’s \ `Data Classification Help
    Page <https://desktop.arcgis.com/en/arcmap/latest/extensions/geostatistical-analyst/data-classification.htm>`__\ .
 
-|agol_image38| |agol_image39|
+..
+   |agol_image38|
+   
+   
+..
+   |agol_image39|
 
-10. Select ‘Natural Breaks’ from the dropdown menu and keep the number 
-   of classes at 4. Then select ‘10’ from the ‘Round classes’
-   dropdown menu. Notice how the breaks change and how the
-   classification type changes to ‘Manual Breaks’.
 
-|agol_image40| |agol_image41|
+10. Select ‘Natural Breaks’ from the dropdown menu and keep the number of classes at 4. Then select ‘10’ from the ‘Round classes’ dropdown menu. Notice how the breaks change and how the classification type changes to ‘Manual Breaks’.
+
+..
+   |agol_image40| 
+
+..
+   |agol_image41|
 
 11. Click ‘Ok’. Then click ‘Done’. Then save your map.
 
@@ -399,20 +404,17 @@ Enable Clustering
    ‘Cluster Points’ icon.
 
 ..
-
    |agol_image42|
 
 2. Slide the clustering bar to create more or less clusters.
 
 ..
-
    |agol_image43|
 
 3. Zoom in and out to see how the clusters adjust as you change scales.
    Click on a cluster to get a summary.
 
 ..
-
    |agol_image44|
 
 Working with Polygon Data
@@ -509,7 +511,8 @@ Bookmarks
    search box. Once zoomed to Venice, click ‘Bookmarks’ and select
    ‘Add Bookmark’ and name bookmark as ‘Venice’.
 
-|agol_image53|
+..
+   |agol_image53|
 
 2. Test your bookmark by zooming out to another section of the map.
    Click ‘Bookmarks’ and select your newly created ‘Venice’ bookmark
@@ -533,6 +536,8 @@ Changing the Basemap
 
    |agol_image55|
 
+..
+
    |agol_image56|
 
 2. Select the ‘Dark Gray Canvas’ and add to your map. |agol_image57|
@@ -544,7 +549,9 @@ You can also add publicly shared layers.
 
 1. Click on “Search for Layers”
 
-|agol_image58|
+..
+   |agol_image58|
+
 
 2. Click on “ArcGIS Online”
 
@@ -604,20 +611,28 @@ Configuring Pop-Ups
 
 ..
 
-   |agol_image65| |agol_image66|
+   |agol_image65|
+   
+   
+..
+   |agol_image66|
 
 2. Click on the ellipses icon for More Options for your arrest data
    layer and select ‘Configure Pop-Ups’.
 
+
 ..
 
    |agol_image67|
+
 
 3. Click on a random point in your map to view a pop-up. Notice the (1
    of #) notification in the top left corner. This signifies that
    there are multiple points at the same location. Click on the arrow
    button to see the pop-up for each point. Remember to use the
    scroll bar to see all the available information.
+
+..
 
    |agol_image68|
 
@@ -631,6 +646,7 @@ Configuring Pop-Ups
 
    |agol_image69|
 
+..
    |agol_image70|
 
 5. In the Configure Attributes window you can control which attributes
@@ -647,11 +663,13 @@ Configuring Pop-Ups
       field and use the arrows on the right to reorder). Click ‘Ok’.
       Then Click ‘Ok’ again.
 
-|agol_image71|
+..
+   |agol_image71|
 
 6. Click on a random point again to see how your pop-up has changed.
 
-|agol_image72|
+..
+   |agol_image72|
 
 Adding images to a pop-up
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -689,10 +707,13 @@ share it!
 
 1. Click on the “Save” icon
 
-|agol_image76|
+..
+   |agol_image76|
 
 3. Give your map a name and tag and then click “Save Map”
-|agol_image77|
+
+..
+   |agol_image77|
 
 4. To share our saved map, click on the “Share” icon:
 

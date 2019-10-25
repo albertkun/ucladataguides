@@ -8,16 +8,24 @@ Getting Started
 
 1. Navigate to the LA Open Data Portal (\ https://data.lacity.org/\ )
 
-|dp_image0|
+..
+
+   |dp_image0|
 
 3. Click the magnifying glass:
-|dp_image1|
+..
+
+   |dp_image1|
 
 4. Find the “arrest data set” by typing “arrest” in the search tool
-|dp_image2|
+..
+
+   |dp_image2|
 
 5. In the results page, click on “Arrest Data from 2010 to Present”
-|dp_image3|
+..
+
+   |dp_image3|
 
 Viewing Data
 ------------
@@ -26,10 +34,14 @@ Viewing Data
    as column names, source of the data, etc.
 
 7. After familiarizing yourself with the data set, click on “View Data”
-|dp_image4| 
+..
+
+   |dp_image4| 
 
 8. You can scroll through the data columns or records
-|dp_image5|
+..
+
+   |dp_image5|
 
 Filtering the data set by date
 ------------------------------
@@ -37,14 +49,20 @@ Filtering the data set by date
 9.  Under “Filter” click the initial filter column
 
 10. Choose “Arrest Date” as the column to filter by
-|dp_image6|
+..
+
+   |dp_image6|
 
 11. Next click on “is” and change the filter condition to “is
     after”
-|dp_image7|
+..
+
+   |dp_image7|
 
 12. Choose after “2016”
-|dp_image8|
+..
+
+   |dp_image8|
 
 Visualizing the data
 --------------------
@@ -55,67 +73,103 @@ Visualizing the data
 Note you can use:\ bigdataforjustice@gmail.com\ \| summer2019!
 
 15. Click on “Select Column” to select a column to visualize.
-|dp_image9|
+..
+
+   |dp_image9|
 
 16. Select “Descent Code” to start visualizing the data.
-|dp_image10|
+..
+
+   |dp_image10|
 
 17. You can scroll down and group the data by other values, for example, “Descent Code by Sex”
-|dp_image11|
+..
+
+   |dp_image11|
 
 18. You can switch the visualization by clicking on one of the buttons on the right
-|dp_image12|
+..
+
+   |dp_image12|
 
 19. The green circle shows a recommended visualization
-|dp_image13|
+..
+
+   |dp_image13|
 
 Mapping our data
 ----------------
 
 20. We will choose map, which is the globe to the right:
-|dp_image14|
+..
+
+   |dp_image14|
 
 21. To find Los Angeles, click the search icon in the map and type in “Los Angeles”
-|dp_image15|
+..
+
+   |dp_image15|
 
 22. This is our data, but we can scroll down for more options:
-|dp_image16| 
+..
+
+   |dp_image16| 
 
 23. Let’s “Style by Value” to change how our points look.
 
-|dp_image17|
+..
+
+   |dp_image17|
 
 24. We will choose “Sex Code”
-|dp_image18|
+..
+
+   |dp_image18|
 
 25. White points are clustered points:
 
-|dp_image19|
+..
+
+   |dp_image19|
 
 Summarizing our Map Points
 --------------------------
 
 26. Scroll down to “Point Aggregation”
-|dp_image20|
+..
+
+   |dp_image20|
 
 27. Select “Region Map”
-|dp_image21|
+..
+
+   |dp_image21|
 
 28. Choose “Zip Codes”
-|dp_image22|
+..
+
+   |dp_image22|
 
 29. Zoom back to Los Angeles again, by either searching “Los Angeles” or
 moving the map to there, now you can see our data by Zip Code
-|dp_image23|
+..
+
+   |dp_image23|
 
 Save the Visualization
 ----------------------
 
 30. If you have created a Socrata Account, you can save the Visulization by clicking at the bottom, “Save Draft”
-|dp_image24|
+
+..
+   
+   |dp_image24|
 
 31. Give it a name and click save
-|dp_image25| 
+
+..
+
+   |dp_image25| 
 
 32. You can now “Publish” the visualization and share it via html link. Note, you cannot save your visualization as a static image or
 page.
@@ -125,11 +179,16 @@ Downloading the entire data
 
 Return back to the page with the data by clicking on the X or “Back to
 Data Set”
-|dp_image26|
+
+..
+
+   |dp_image26|
 
 33. Click on the “Export” button
 
-|dp_image27|
+..
+
+   |dp_image27|
 
 34. We will choose to download the data as “CSV” which is the simplest data type:
 
