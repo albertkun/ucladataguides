@@ -17,12 +17,12 @@ Getting Started
 
    |dp_image1|
 
-4. Find the “arrest data set” by typing “arrest” in the search tool
+4. Find the “arrest data set” by typing “arrest” in the search tool.
 ..
 
    |dp_image2|
 
-5. In the results page, click on “Arrest Data from 2010 to Present”
+5. In the results page, click on “Arrest Data from 2010 to Present”.
 ..
 
    |dp_image3|
@@ -33,7 +33,7 @@ Viewing Data
 6. In the Data set page, you can view information about the data, such
    as column names, source of the data, etc.
 
-7. After familiarizing yourself with the data set, click on “View Data”
+7. After familiarizing yourself with the data set, click on “View Data”.
 ..
 
    |dp_image4| 
@@ -249,89 +249,58 @@ choose “Arrest Date” (2):
 
 .. |dp_image0| image:: ../media/dp_image0.png
 .. |dp_image1| image:: ../media/dp_image1.png
-   :width: 6.49375in
-   :height: 4.15833in
+   
+   
 .. |dp_image2| image:: ../media/dp_image2.png
-   :width: 6.5in
-   :height: 4.14306in
+   
 .. |dp_image3| image:: ../media/dp_image3.png
 .. |dp_image4| image:: ../media/dp_image4.png
 .. |dp_image5| image:: ../media/dp_image5.png
 .. |dp_image6| image:: ../media/dp_image6.png
 .. |dp_image7| image:: ../media/dp_image7.png
 .. |dp_image8| image:: ../media/dp_image8.png
-   :width: 6.49583in
-   :height: 4.15625in
+   
+   
 .. |dp_image9| image:: ../media/dp_image9.png
-   :width: 6.5in
-   :height: 4.21458in
+   
 .. |dp_image10| image:: ../media/dp_image10.png
-   :width: 6.5in
-   :height: 4.19931in
+   
 .. |dp_image11| image:: ../media/dp_image11.png
 .. |dp_image12| image:: ../media/dp_image12.png
 .. |dp_image13| image:: ../media/dp_image13.png
-   :width: 6.5in
-   :height: 4.14306in
+   
 .. |dp_image14| image:: ../media/dp_image14.png
-   :width: 6.5in
-   :height: 3.92153in
+   
 .. |dp_image15| image:: ../media/dp_image15.png
 .. |dp_image16| image:: ../media/dp_image16.png
-   :width: 6.5in
-   :height: 4.06476in
+   
 .. |dp_image17| image:: ../media/dp_image17.png
-   :width: 6.5in
-   :height: 4.21806in
+   
 .. |dp_image18| image:: ../media/dp_image18.png
-   :width: 6.5in
-   :height: 4.21806in
+   
 .. |dp_image19| image:: ../media/dp_image19.png
 .. |dp_image20| image:: ../media/dp_image20.png
-   :width: 6.5in
-   :height: 4.21806in
+   
 .. |dp_image21| image:: ../media/dp_image21.png
-   :width: 6.5in
-   :height: 4.21806in
+   
 .. |dp_image22| image:: ../media/dp_image22.png
-   :width: 6.5in
-   :height: 3.11389in
+   
 .. |dp_image23| image:: ../media/dp_image23.png
-   :width: 6.49583in
-   :height: 4.15625in
+   
+   
 .. |dp_image24| image:: ../media/dp_image24.png
-   :width: 6.5in
-   :height: 4.16181in
+   
 .. |dp_image25| image:: ../media/dp_image25.png
-   :width: 6.5in
-   :height: 4.16181in
+   
 .. |dp_image26| image:: ../media/dp_image26.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image27| image:: ../media/dp_image27.png
-   :width: 6.5in
-   :height: 3.95833in
+    |dp_image27| image:: ../media/dp_image27.png
+   
 .. |dp_image28| image:: ../media/dp_image28.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image29| image:: ../media/dp_image29.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image30| image:: ../media/dp_image30.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image31| image:: ../media/dp_image31.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image32| image:: ../media/dp_image32.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image33| image:: ../media/dp_image33.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image34| image:: ../media/dp_image34.png
-   :width: 6.5in
-   :height: 3.75in
-.. |dp_image35| image:: ../media/dp_image35.png
-   :width: 6.5in
-   :height: 3.75in
+    |dp_image29| image:: ../media/dp_image29.png
+    |dp_image30| image:: ../media/dp_image30.png
+    |dp_image31| image:: ../media/dp_image31.png
+    |dp_image32| image:: ../media/dp_image32.png
+    |dp_image33| image:: ../media/dp_image33.png
+    |dp_image34| image:: ../media/dp_image34.png
+    |dp_image35| image:: ../media/dp_image35.png
+   
