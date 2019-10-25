@@ -45,6 +45,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.ifconfig',
     'sphinx.ext.githubpages',
+    'rst2pdf.pdfbuilder'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -133,7 +134,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'mdhdocs.tex', u'mdhdocs Documentation',
+    (master_doc, 'mdhdocs.tex', u'UCLA Data Guides',
      u'Albert K. and Mariah T.', 'manual'),
 ]
 
@@ -143,7 +144,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'mdhdocs', u'mdhdocs Documentation',
+    (master_doc, 'mdhdocs', u'UCLA Data Guides Documentation',
      [author], 1)
 ]
 
@@ -154,7 +155,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'mdhdocs', u'mdhdocs Documentation',
+    (master_doc, 'mdhdocs', u'UCLA Data Guides Documentation',
      author, 'mdhdocs', 'One line description of project.',
      'Miscellaneous'),
 ]
@@ -184,3 +185,4 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+pdf_documents = [('index', u'rst2pdf', u'UCLA Data Guides Documentation', u'Albert K. and Mariah T.'),]
