@@ -43,18 +43,18 @@ along: \________\_
 
 When you open Tableau, the first screen should look like this:
 
-|image0|
+|tab_image0|
 
 Since we are working with a CSV (comma delimited file), click on “Text
 File” to the left. What should result is a screen like this:
 
-|image1|
+|tab_image1|
 
 The connection should be the main dataset you connected to. Your data
 should display in the center. If you click “Update Now” you should be
 able to get a preview (first 1,000 rows) of the dataset you imported.
 
-|image2|
+|tab_image2|
 
 Over the variable names are various symbols. These are the data types
 that Tableau automatically assigned to each of the variable names. If
@@ -81,11 +81,11 @@ up our first “Sheet”. Highlighted in orange at the bottom is “Sheet1”.
 Please click on that to continue.
 
 Create Visualizations
------------------------------
+---------------------
 
 When you open up your sheet, you should first see a screen like this:
 
-|image3|
+|tab_image3|
 
 As mentioned before, are our “Dimensions” and “Measures”. This is one
 way that Tableau will know what graph to generate. Under “Dimensions”
@@ -97,12 +97,12 @@ District variable, though they are numbers, are actually categories. In
 order to change this, right click or left click on the down arrow when
 you highlight over the variable. See below:
 
-|image4|
+|tab_image4|
 
 Then click on “Convert to Dimension”. Our City Council Dist variable
 should then appear in our Dimensions section. See Below:
 
-|image5|
+|tab_image5|
 
 We also have the option to turn our variable into “Continuous” after
 it’s put into our Dimensions shelf, but we wouldn’t want to because even
@@ -112,7 +112,7 @@ variable. To read more about this distinction please refer
 
 Next to our Dimensions and Measures is the main body of the sheet:
 
-|image6|
+|tab_image6|
 
 The big white area will be where our visualizations will appear. The
 “Filters” is if we want to filter our visualization based on certain
@@ -141,7 +141,7 @@ would first double click our Race variable (“Race Cat”). Our variable
 would appear on the columns shelf and we’d see the following empty
 table:
 
-|image7|
+|tab_image7|
 
 If we wanted to populate this table with the number of arrests, we’d
 have to choose a variable from our “Measures” section. Since each
@@ -150,7 +150,7 @@ of Records” variable (Tableau generated variable). What you should see
 is “Number of Records appear on the “Marks” shelf and a table that is
 now populated with numbers:
 
-|image8|
+|tab_image8|
 
 We’ve created our first visualization!
 
@@ -159,18 +159,18 @@ many arrests look when we cross race and gender together. If we now
 click on our Gender variable (“SEX” in our dataset) we should see a
 cross tab of Gender and Race:
 
-|image9|
+|tab_image9|
 
 If we didn’t want just a count and would rather want percentage, we can
 change that by right clicking our “Number of Records” variable under
 “Marks” and clicking on “Quick Table Calculations” then “Percentage of
 Total”:
 
-|image10|
+|tab_image10|
 
 That should result in a table that looks like below:
 
-|image11|
+|tab_image11|
 
 We can see now that there’s a greater proportion of males in our LatinX
 population as opposed to our other racial groups in our data.
@@ -179,7 +179,7 @@ We can name this table if we double click on either the “Sheet 1” in our
 main visualization space or in the tab below. Let’s rename this to
 “Demographic Exploration”. Our final table should look like below:
 
-|image12|
+|tab_image12|
 
 Tables are one way to visualize data and Tableau has a way to quickly
 create these tables for you. We will now go on other more “visual” based
@@ -189,18 +189,18 @@ Create a Bar Graph
 '''''''''''''''''''''
 
 Create a new sheet by clicking on this icon in the bottom tabs:
-|image13|
+|tab_image13|
 
 For this example, let’s say we are interested in how many people are
 being arrested for each City Council District. Let’s double click on
 “Number of Records” in the Measure section, then click on “City Council
 District”. What you should see is our desired bar graph. See below:
 
-|image14|
+|tab_image14|
 
 If what you’re seeing is horizontal lines rather than vertical lines. On
 the top menu bar, you should see a symbol that looks like this:
-|image15|
+|tab_image15|
 
 That will change your graph from a horizontal to a vertical one.
 
@@ -211,17 +211,17 @@ automatically generate visualizations.
 If you click on “City Council District” then “Number of Records”, you’ll
 probably see something like this:
 
-|image16|
+|tab_image16|
 
 If that’s the case, you can start over and click on “Number of Records”
 first, then “City Council Districts”, but there’s no way you can
 memorize which order produces what visualization. In which case there’s
-a handy shortcut in the top right of the menu bar: |image17|
+a handy shortcut in the top right of the menu bar: |tab_image17|
 
 The “Show Me” menu gives you the option for quickly turning the
 visualization shown to another type of visualization.
 
-|image18|
+|tab_image18|
 
 It even gives you a recommend visualization which is usually boxed in
 orange. Click on the bar graph visualization on the left, third row
@@ -235,7 +235,7 @@ arrests looked by Race. As mentioned previously, the way to do that is
 for using our “Marks” shelf. Let’s drag “Race Cat” into the “Color” box
 in the “Marks” shelf. What you should see is the visualization below:
 
-|image19|
+|tab_image19|
 
 The bar graph is now stacked by our different racial categories. If we
 wanted to actually take a look at the numbers for each of these, let’s
@@ -250,7 +250,7 @@ menu click “Compute Using” then “Table (down)”.
 
 Your final table should look like below:
 
-|image20|
+|tab_image20|
 
 You can play around with the visualization here. Add other variables
 into the “Marks” shelf, switch out colors, change your labels, etc. If
@@ -269,19 +269,19 @@ To get the first set of graphs set up, we’d first double click on
 “Number of Records” then our date variable which is “Arrest Date”. What
 you should see is something like the graph below.
 
-|image21|
+|tab_image21|
 
 This is a version of our line graph, but it’s currently only showing
 year totals for 2017 and 2018. There’s a plus sign, next to the
 “YEAR(Arrest Date)” in the columns section. Click on that once and you
 should get a graph that looks like below:
 
-|image22|
+|tab_image22|
 
 Now our graph is separated by Quarters. If you click on the plus sign
 again next to “QUARTER(Arrest Date)” then it splits itself into months.
 
-|image23|
+|tab_image23|
 
 Though this would technically be what we would want, the graph currently
 looks disjointed and it awkwardly separates by Quarters and Years. We’d
@@ -296,12 +296,12 @@ Click the minus button next to “YEAR(Arrest Date)” to condense
 everything to year. Then right click the variable. What you should see
 is the following menu:
 
-|image24|
+|tab_image24|
 
 Click on the second set of “Month”, the one that says “May 2015” next to
 it. The resulting graph is what we want to see:
 
-|image25|
+|tab_image25|
 
 It also automatically converted our “Discrete” date variable into a
 continuous one (It’s now green instead of blue). Take your time to play
@@ -323,7 +323,7 @@ Longitude and Latitude variables.
 Let’s double click on “Latitude” and “Longitude”. What you see should be
 something like below:
 
-|image26|
+|tab_image26|
 
 A basic map is created, but there’s only one dot. The reason why it’s
 doing this is because it is a “Measure” it will automatically do some
@@ -335,49 +335,49 @@ We don’t want anything calculated so let’s right click our
 “AVG(Longitude)” variable in the Column shelf and we should see the list
 of options like shown below:
 
-|image27|
+|tab_image27|
 
 Let’s click on “Dimension”. We should see that Longitude is no longer
 encased by “AVG”. Let’s also do the same thing for “AVG(Latitude)”. The
 resulting visualization should look like the below:
 
-|image28|
+|tab_image28|
 
 Since the dots look a little too clustered together now, I’m going to
 reduce the size of the dots by going to the “Marks” shelf and click on
 “Size” like below:
 
-|image29|
+|tab_image29|
 
 Let’s slide the slider to the left. You can go however much you want,
 but the resulting dots should be smaller now. Here is how mine looks:
 
-|image30|
+|tab_image30|
 
 For the purposes of this exercise, say we only want to see the dots of
 all the Females who are arrested. We will now work with our “Filter”
 shelf. Let’s drag our “SEX” variable into our “Filter” shelf. When you
 do, a pop-up will appear that looks like below:
 
-|image31|
+|tab_image31|
 
 This will ask us directly what we want to filter by. For now let’s
 select “All” then press “OK”. We now have our “SEX” variable resting on
 our shelf:
 
-|image32|
+|tab_image32|
 
 Let’s right click on “SEX” and click on “Show Filter”. What results is
 our map with a filter that now appears on the right:
 
-|image33|
+|tab_image33|
 
 If you click through the different filters. The map will change based on
 what you decide to filter by. If we wanted to see how Arrests look for
 “Females”, we’d unclick our “Male” values. The resulting maps should
 look like below:
 
-|image34|
+|tab_image34|
 
 One of the things I like to do is change how the filter looks like. This
 is entirely up to you though. If you want to change how the filter
@@ -385,19 +385,19 @@ looks, hover your mouse to the filter and three icons will appear. Click
 on the little down arrow. From there we’ll see, as options, a host of
 ways we can display the filter:
 
-|image35|
+|tab_image35|
 
 I personally like “Single Value (list)”. I will be clicking on that. Now
 my filter will be single click and I’ll be able to switch easily from
 “M” and “F”.
 
-|image36|
+|tab_image36|
 
 Let’s do the same thing for Race. Drag “Race Cat” into our “Filters”
 shelf. Go through the same process detailed for “SEX” above. The
 resulting map should look like below:
 
-|image37|
+|tab_image37|
 
 This map now displays all arrests from 2017-2018 for Black Females.
 
@@ -415,7 +415,7 @@ To Create a new Dashboard click on this icon: |image38|
 
 What you should see is a screen like below:
 
-|image39|
+|tab_image39|
 
 On the left is our size. This may look different for you. You can adjust
 the size of your dashboard to however width and length you’d like. For
@@ -423,13 +423,13 @@ now let’s change our size to “Automatic”. To do so click on the little
 arrow under our “Size” shelf. Click on the little arrow again on the
 right of “Range” then click on “Automatic”.
 
-|image40|
+|tab_image40|
 
 Under the size are our created “Sheets”. Click on “Map of Arrests”, then
 “Bar Graph of Arrests”, then “Trend Over Time”, then “Demographic
 Exploration”. What should result is the Dashboard below:
 
-|image41|
+|tab_image41|
 
 This is what Tableau is most popular for. The ability to see multiple
 visualization on one “Dashboard”. You’ll see filters on the right as
@@ -442,7 +442,7 @@ dashboard. Click on our “Demographic Exploration” sheet. The sheet will
 be highlighted in grey. Four icons will appear on the right. Click on
 the down arrow and you’ll see a list of options:
 
-|image42|
+|tab_image42|
 
 Click on “Fit” then “Fit Width” which will give us the most visually
 pleasing display of this table. You can play around with this to see
@@ -458,7 +458,7 @@ Let’s click on the “SEX” filter. We’ll see the same grey border appear
 and a down arrow that comes along with it. In that menu, you’ll see
 these options:
 
-|image43|
+|tab_image43|
 
 Click on “Apply to Worksheets” then “All Using This Data Source”. Now
 everything will be driven by this filter. Make sure to try it out
@@ -473,7 +473,7 @@ For example, in our bar graph are the different council district
 numbers. Click on “14” on the x-axis. What you should see is the bar
 highlighted like below:
 
-|image44|
+|tab_image44|
 
 That’s cool in and of itself, but say we want to also change everything
 else so that all the other visualizations we’re seeing are only those in
@@ -482,20 +482,20 @@ City Council District 14.
 On the very top of our menu you’ll see a menu for “Dashboard” (may look
 different if using Windows):
 
-|image45|
+|tab_image45|
 
 Click on that menu and go to “Actions…”
 
-|image46|
+|tab_image46|
 
 A pop-up menu should pop up. From there click “Add Action >” then
 “Filter”
 
-|image47|
+|tab_image47|
 
 Another pop up should appear like below:
 
-|image48|
+|tab_image48|
 
 You’ll have the sheet you want the action to start from and the
 resulting sheets you want to change. We want to be able to click on the
@@ -518,7 +518,7 @@ Let’s rename this action above in “Name:” to “Bar Chart Action”.
 When you finish putting the action together, your Action criteria should
 look like below:
 
-|image49|
+|tab_image49|
 
 When your Action criteria matches above, click “OK” then “OK” again in
 the previous dialog box.
@@ -526,7 +526,7 @@ the previous dialog box.
 Now when you click on the “14” on the x-axis of the bar chart all the
 other sheets should change. The dashboard should look like below:
 
-|image50|
+|tab_image50|
 
 Our Trend over time changed as well as our map.
 
@@ -546,156 +546,156 @@ acquainted with, as mentioned before, please visit `this
 site <https://www.tableau.com/learn/training>`__ which hosts a lot of
 detailed videos on all the moving parts of this program.
 
-.. |image0| image:: media/image1.png
+.. |tab_image0| image:: media/tab_image0.png
    :width: 6.34021in
    :height: 4.05814in
-.. |image1| image:: media/image2.png
+.. |tab_image1| image:: media/tab_image1.png
    :width: 6.41303in
    :height: 4.11622in
-.. |image2| image:: media/image3.tiff
+.. |tab_image2| image:: media/tab_image2.tiff
    :width: 7.5in
    :height: 0.88264in
-.. |image3| image:: media/image4.png
+.. |tab_image3| image:: media/tab_image3.png
    :width: 6.0911in
    :height: 3.9186in
-.. |image4| image:: media/image5.png
+.. |tab_image4| image:: media/tab_image4.png
    :width: 2.91301in
    :height: 3.12791in
-.. |image5| image:: media/image6.png
+.. |tab_image5| image:: media/tab_image5.png
    :width: 1.75414in
    :height: 3.51647in
-.. |image6| image:: media/image7.png
+.. |tab_image6| image:: media/tab_image6.png
    :width: 6.95041in
    :height: 4.60465in
-.. |image7| image:: media/image8.png
+.. |tab_image7| image:: media/tab_image7.png
    :width: 3.37209in
    :height: 2.58858in
-.. |image8| image:: media/image9.png
+.. |tab_image8| image:: media/tab_image8.png
    :width: 1.80233in
    :height: 1.33721in
-.. |image9| image:: media/image10.png
+.. |tab_image9| image:: media/tab_image9.png
    :width: 2.06977in
    :height: 1.32426in
-.. |image10| image:: media/image11.png
+.. |tab_image10| image:: media/tab_image10.png
    :width: 4.13798in
    :height: 4.7303in
-.. |image11| image:: media/image12.png
+.. |tab_image11| image:: media/tab_image11.png
    :width: 2.47674in
    :height: 1.52676in
-.. |image12| image:: media/image13.png
+.. |tab_image12| image:: media/tab_image12.png
    :width: 3.22713in
    :height: 2.10465in
-.. |image13| image:: media/image14.png
+.. |tab_image13| image:: media/tab_image49.png
    :width: 0.44444in
    :height: 0.43056in
-.. |image14| image:: media/image15.png
+.. |tab_image14| image:: media/tab_image13.png
    :width: 5.83721in
    :height: 4.10821in
-.. |image15| image:: media/image16.png
+.. |tab_image15| image:: media/tab_image50.png
    :width: 0.55556in
    :height: 0.45833in
-.. |image16| image:: media/image17.png
+.. |tab_image16| image:: media/tab_image14.png
    :width: 1.45342in
    :height: 3.27713in
-.. |image17| image:: media/image18.png
+.. |tab_image17| image:: media/tab_image15.png
    :width: 1.25in
    :height: 0.45833in
-.. |image18| image:: media/image19.png
+.. |tab_image18| image:: media/tab_image16.png
    :width: 1.33988in
    :height: 3.21519in
-.. |image19| image:: media/image20.png
+.. |tab_image19| image:: media/tab_image17.png
    :width: 7.5in
    :height: 4.575in
-.. |image20| image:: media/image21.png
+.. |tab_image20| image:: media/tab_image18.png
    :width: 7.5in
    :height: 4.57222in
-.. |image21| image:: media/image22.png
+.. |tab_image21| image:: media/tab_image19.png
    :width: 1.98594in
    :height: 2.46028in
-.. |image22| image:: media/image23.png
+.. |tab_image22| image:: media/tab_image20.png
    :width: 4.30529in
    :height: 3.23256in
-.. |image23| image:: media/image24.png
+.. |tab_image23| image:: media/tab_image21.png
    :width: 5.80233in
    :height: 4.20937in
-.. |image24| image:: media/image25.png
+.. |tab_image24| image:: media/tab_image22.png
    :width: 2.95895in
    :height: 5.97674in
-.. |image25| image:: media/image26.png
+.. |tab_image25| image:: media/tab_image23.png
    :width: 4.9807in
    :height: 3.59302in
-.. |image26| image:: media/image27.png
+.. |tab_image26| image:: media/tab_image24.png
    :width: 6.37209in
    :height: 4.94722in
-.. |image27| image:: media/image28.png
+.. |tab_image27| image:: media/tab_image25.png
    :width: 2.1239in
    :height: 2.83721in
-.. |image28| image:: media/image29.png
+.. |tab_image28| image:: media/tab_image26.png
    :width: 7.5in
    :height: 5.54167in
-.. |image29| image:: media/image30.png
+.. |tab_image29| image:: media/tab_image27.png
    :width: 2.27907in
    :height: 1.23135in
-.. |image30| image:: media/image31.png
+.. |tab_image30| image:: media/tab_image28.png
    :width: 7.5in
    :height: 5.52569in
-.. |image31| image:: media/image32.png
+.. |tab_image31| image:: media/tab_image29.png
    :width: 4.89389in
    :height: 4.78196in
-.. |image32| image:: media/image33.png
+.. |tab_image32| image:: media/tab_image30.png
    :width: 1.97744in
    :height: 4.38372in
-.. |image33| image:: media/image34.png
+.. |tab_image33| image:: media/tab_image31.png
    :width: 6.52326in
    :height: 4.26971in
-.. |image34| image:: media/image35.png
+.. |tab_image34| image:: media/tab_image32.png
    :width: 5.73964in
    :height: 3.74352in
-.. |image35| image:: media/image36.png
+.. |tab_image35| image:: media/tab_image33.png
    :width: 2.74049in
    :height: 4.15116in
-.. |image36| image:: media/image37.png
+.. |tab_image36| image:: media/tab_image34.png
    :width: 1.88372in
    :height: 1.18307in
-.. |image37| image:: media/image38.png
+.. |tab_image37| image:: media/tab_image35.png
    :width: 7.5in
    :height: 4.90625in
-.. |image38| image:: media/image39.png
+.. |tab_image38| image:: media/tab_image36.png
    :width: 0.61111in
    :height: 0.63889in
-.. |image39| image:: media/image40.png
+.. |tab_image39| image:: media/tab_image37.png
    :width: 7.50271in
    :height: 4.60861in
-.. |image40| image:: media/image41.png
+.. |tab_image40| image:: media/tab_image38.png
    :width: 2.15642in
    :height: 2.41634in
-.. |image41| image:: media/image42.png
+.. |tab_image41| image:: media/tab_image39.png
    :width: 7.5in
    :height: 4.89653in
-.. |image42| image:: media/image43.png
+.. |tab_image42| image:: media/tab_image40.png
    :width: 7.5in
    :height: 4.46944in
-.. |image43| image:: media/image44.png
+.. |tab_image43| image:: media/tab_image41.png
    :width: 5.54726in
    :height: 6.59302in
-.. |image44| image:: media/image45.png
+.. |tab_image44| image:: media/tab_image42.png
    :width: 5.68605in
    :height: 4.18293in
-.. |image45| image:: media/image46.png
+.. |tab_image45| image:: media/tab_image43.png
    :width: 7.5in
    :height: 0.34167in
-.. |image46| image:: media/image47.png
+.. |tab_image46| image:: media/tab_image44.png
    :width: 3.36115in
    :height: 3.17442in
-.. |image47| image:: media/image48.png
+.. |tab_image47| image:: media/tab_image45.png
    :width: 7.5in
    :height: 4.36806in
-.. |image48| image:: media/image49.png
+.. |tab_image48| image:: media/tab_image46.png
    :width: 6.38866in
    :height: 7.15116in
-.. |image49| image:: media/image50.png
+.. |tab_image49| image:: media/tab_image47.png
    :width: 6.00676in
    :height: 6.60465in
-.. |image50| image:: media/image51.png
+.. |tab_image50| image:: media/tab_image48.png
    :width: 7.5in
    :height: 4.90486in
