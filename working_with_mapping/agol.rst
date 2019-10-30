@@ -1,4 +1,4 @@
-Quick Visual Guide to Visualizing Data in ArcGIS Online
+Visualizing Data in ArcGIS Online
 =======================================================
 
 Introduction to GIS Vector Data

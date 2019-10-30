@@ -1,3 +1,6 @@
+Working with Tableau and data
+===============================
+
 Data visualization is the graphical representation of information and
 data. By using visual elements like charts, graphs, and maps, data
 visualization tools provide an accessible way to see and **understand
@@ -32,6 +35,7 @@ Outline:
 3. Dashboard
 
 Connect to Data
+-------------------
 
 For the purposes of this exercise, we will use the
 “ARREST_DATA_2017_2018”. Please download the following dataset to follow
@@ -77,6 +81,7 @@ up our first “Sheet”. Highlighted in orange at the bottom is “Sheet1”.
 Please click on that to continue.
 
 Create Visualizations
+-----------------------------
 
 When you open up your sheet, you should first see a screen like this:
 
@@ -128,7 +133,7 @@ This makes sense as you work more with Tableau. For now, let’s create a
 couple of simple visualizations.
 
 Create a Table
-
+'''''''''''''''''''''''''''''''''''
 Let’s make our first visualization.
 
 Say we wanted to create a table with the number of arrests by Race, we
@@ -181,6 +186,7 @@ create these tables for you. We will now go on other more “visual” based
 visualizations.
 
 Create a Bar Graph
+'''''''''''''''''''''
 
 Create a new sheet by clicking on this icon in the bottom tabs:
 |image13|
@@ -253,6 +259,7 @@ it starts getting out of control, you can always just start over.
 Let’s rename this visualization to “Bar Graph of Arrests”
 
 Create a Linear Trend
+''''''''''''''''''''''''''
 
 Our next example will be to create a linear trend. Say for example,
 you’d like to see how arrests look like over a period of time. We’d want
@@ -304,6 +311,7 @@ when you place them in there.
 Let’s save this sheet as “Trend Over Time”.
 
 Create a Basic Map
+''''''''''''''''''''''''
 
 The last thing we want to do is create a basic map through Tableau. On
 the left are our “Longitude” and “Latitude” variables with a little
@@ -401,6 +409,7 @@ one way you can have people interacting and playing with the underlying
 data so that they may derive insight.
 
 Create a Dashboard
+-----------------------------
 
 To Create a new Dashboard click on this icon: |image38|
 
@@ -527,6 +536,10 @@ full working data playground.
 This is a simple dashboard we put together, but Tableau is a powerful
 tool that allows people to create interactive multi-faceted
 visualizations with their data.
+
+
+More resources
+-------------------
 
 If you believe that Tableau is a tool you’d like to become more
 acquainted with, as mentioned before, please visit `this

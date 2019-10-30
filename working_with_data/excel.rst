@@ -1,6 +1,6 @@
 .. _excel_cleaning:
 
-Quick Visual Guide to Cleaning Data in Microsoft Excel
+Cleaning Data in Microsoft Excel
 ======================================================
 
 Getting Started
