@@ -546,156 +546,156 @@ acquainted with, as mentioned before, please visit `this
 site <https://www.tableau.com/learn/training>`__ which hosts a lot of
 detailed videos on all the moving parts of this program.
 
-.. |tab_image0| image:: media/tab_image0.png
+.. |tab_image0| image:: ../media/tab_image0.png
    :width: 6.34021in
    :height: 4.05814in
-.. |tab_image1| image:: media/tab_image1.png
+.. |tab_image1| image:: ../media/tab_image1.png
    :width: 6.41303in
    :height: 4.11622in
-.. |tab_image2| image:: media/tab_image2.tiff
+.. |tab_image2| image:: ../media/tab_image2.tiff
    :width: 7.5in
    :height: 0.88264in
-.. |tab_image3| image:: media/tab_image3.png
+.. |tab_image3| image:: ../media/tab_image3.png
    :width: 6.0911in
    :height: 3.9186in
-.. |tab_image4| image:: media/tab_image4.png
+.. |tab_image4| image:: ../media/tab_image4.png
    :width: 2.91301in
    :height: 3.12791in
-.. |tab_image5| image:: media/tab_image5.png
+.. |tab_image5| image:: ../media/tab_image5.png
    :width: 1.75414in
    :height: 3.51647in
-.. |tab_image6| image:: media/tab_image6.png
+.. |tab_image6| image:: ../media/tab_image6.png
    :width: 6.95041in
    :height: 4.60465in
-.. |tab_image7| image:: media/tab_image7.png
+.. |tab_image7| image:: ../media/tab_image7.png
    :width: 3.37209in
    :height: 2.58858in
-.. |tab_image8| image:: media/tab_image8.png
+.. |tab_image8| image:: ../media/tab_image8.png
    :width: 1.80233in
    :height: 1.33721in
-.. |tab_image9| image:: media/tab_image9.png
+.. |tab_image9| image:: ../media/tab_image9.png
    :width: 2.06977in
    :height: 1.32426in
-.. |tab_image10| image:: media/tab_image10.png
+.. |tab_image10| image:: ../media/tab_image10.png
    :width: 4.13798in
    :height: 4.7303in
-.. |tab_image11| image:: media/tab_image11.png
+.. |tab_image11| image:: ../media/tab_image11.png
    :width: 2.47674in
    :height: 1.52676in
-.. |tab_image12| image:: media/tab_image12.png
+.. |tab_image12| image:: ../media/tab_image12.png
    :width: 3.22713in
    :height: 2.10465in
-.. |tab_image13| image:: media/tab_image49.png
+.. |tab_image13| image:: ../media/tab_image49.png
    :width: 0.44444in
    :height: 0.43056in
-.. |tab_image14| image:: media/tab_image13.png
+.. |tab_image14| image:: ../media/tab_image13.png
    :width: 5.83721in
    :height: 4.10821in
-.. |tab_image15| image:: media/tab_image50.png
+.. |tab_image15| image:: ../media/tab_image50.png
    :width: 0.55556in
    :height: 0.45833in
-.. |tab_image16| image:: media/tab_image14.png
+.. |tab_image16| image:: ../media/tab_image14.png
    :width: 1.45342in
    :height: 3.27713in
-.. |tab_image17| image:: media/tab_image15.png
+.. |tab_image17| image:: ../media/tab_image15.png
    :width: 1.25in
    :height: 0.45833in
-.. |tab_image18| image:: media/tab_image16.png
+.. |tab_image18| image:: ../media/tab_image16.png
    :width: 1.33988in
    :height: 3.21519in
-.. |tab_image19| image:: media/tab_image17.png
+.. |tab_image19| image:: ../media/tab_image17.png
    :width: 7.5in
    :height: 4.575in
-.. |tab_image20| image:: media/tab_image18.png
+.. |tab_image20| image:: ../media/tab_image18.png
    :width: 7.5in
    :height: 4.57222in
-.. |tab_image21| image:: media/tab_image19.png
+.. |tab_image21| image:: ../media/tab_image19.png
    :width: 1.98594in
    :height: 2.46028in
-.. |tab_image22| image:: media/tab_image20.png
+.. |tab_image22| image:: ../media/tab_image20.png
    :width: 4.30529in
    :height: 3.23256in
-.. |tab_image23| image:: media/tab_image21.png
+.. |tab_image23| image:: ../media/tab_image21.png
    :width: 5.80233in
    :height: 4.20937in
-.. |tab_image24| image:: media/tab_image22.png
+.. |tab_image24| image:: ../media/tab_image22.png
    :width: 2.95895in
    :height: 5.97674in
-.. |tab_image25| image:: media/tab_image23.png
+.. |tab_image25| image:: ../media/tab_image23.png
    :width: 4.9807in
    :height: 3.59302in
-.. |tab_image26| image:: media/tab_image24.png
+.. |tab_image26| image:: ../media/tab_image24.png
    :width: 6.37209in
    :height: 4.94722in
-.. |tab_image27| image:: media/tab_image25.png
+.. |tab_image27| image:: ../media/tab_image25.png
    :width: 2.1239in
    :height: 2.83721in
-.. |tab_image28| image:: media/tab_image26.png
+.. |tab_image28| image:: ../media/tab_image26.png
    :width: 7.5in
    :height: 5.54167in
-.. |tab_image29| image:: media/tab_image27.png
+.. |tab_image29| image:: ../media/tab_image27.png
    :width: 2.27907in
    :height: 1.23135in
-.. |tab_image30| image:: media/tab_image28.png
+.. |tab_image30| image:: ../media/tab_image28.png
    :width: 7.5in
    :height: 5.52569in
-.. |tab_image31| image:: media/tab_image29.png
+.. |tab_image31| image:: ../media/tab_image29.png
    :width: 4.89389in
    :height: 4.78196in
-.. |tab_image32| image:: media/tab_image30.png
+.. |tab_image32| image:: ../media/tab_image30.png
    :width: 1.97744in
    :height: 4.38372in
-.. |tab_image33| image:: media/tab_image31.png
+.. |tab_image33| image:: ../media/tab_image31.png
    :width: 6.52326in
    :height: 4.26971in
-.. |tab_image34| image:: media/tab_image32.png
+.. |tab_image34| image:: ../media/tab_image32.png
    :width: 5.73964in
    :height: 3.74352in
-.. |tab_image35| image:: media/tab_image33.png
+.. |tab_image35| image:: ../media/tab_image33.png
    :width: 2.74049in
    :height: 4.15116in
-.. |tab_image36| image:: media/tab_image34.png
+.. |tab_image36| image:: ../media/tab_image34.png
    :width: 1.88372in
    :height: 1.18307in
-.. |tab_image37| image:: media/tab_image35.png
+.. |tab_image37| image:: ../media/tab_image35.png
    :width: 7.5in
    :height: 4.90625in
-.. |tab_image38| image:: media/tab_image36.png
+.. |tab_image38| image:: ../media/tab_image36.png
    :width: 0.61111in
    :height: 0.63889in
-.. |tab_image39| image:: media/tab_image37.png
+.. |tab_image39| image:: ../media/tab_image37.png
    :width: 7.50271in
    :height: 4.60861in
-.. |tab_image40| image:: media/tab_image38.png
+.. |tab_image40| image:: ../media/tab_image38.png
    :width: 2.15642in
    :height: 2.41634in
-.. |tab_image41| image:: media/tab_image39.png
+.. |tab_image41| image:: ../media/tab_image39.png
    :width: 7.5in
    :height: 4.89653in
-.. |tab_image42| image:: media/tab_image40.png
+.. |tab_image42| image:: ../media/tab_image40.png
    :width: 7.5in
    :height: 4.46944in
-.. |tab_image43| image:: media/tab_image41.png
+.. |tab_image43| image:: ../media/tab_image41.png
    :width: 5.54726in
    :height: 6.59302in
-.. |tab_image44| image:: media/tab_image42.png
+.. |tab_image44| image:: ../media/tab_image42.png
    :width: 5.68605in
    :height: 4.18293in
-.. |tab_image45| image:: media/tab_image43.png
+.. |tab_image45| image:: ../media/tab_image43.png
    :width: 7.5in
    :height: 0.34167in
-.. |tab_image46| image:: media/tab_image44.png
+.. |tab_image46| image:: ../media/tab_image44.png
    :width: 3.36115in
    :height: 3.17442in
-.. |tab_image47| image:: media/tab_image45.png
+.. |tab_image47| image:: ../media/tab_image45.png
    :width: 7.5in
    :height: 4.36806in
-.. |tab_image48| image:: media/tab_image46.png
+.. |tab_image48| image:: ../media/tab_image46.png
    :width: 6.38866in
    :height: 7.15116in
-.. |tab_image49| image:: media/tab_image47.png
+.. |tab_image49| image:: ../media/tab_image47.png
    :width: 6.00676in
    :height: 6.60465in
-.. |tab_image50| image:: media/tab_image48.png
+.. |tab_image50| image:: ../media/tab_image48.png
    :width: 7.5in
    :height: 4.90486in
