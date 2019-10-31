@@ -1,4 +1,4 @@
-Quick Visual Guide to Visualizing Data using Esri StoryMaps
+Visualizing Data using Esri StoryMaps
 ============================================================
 
 Getting Started
