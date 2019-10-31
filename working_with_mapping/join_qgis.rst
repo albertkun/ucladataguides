@@ -1,5 +1,5 @@
-Quick Visual Guide to Joining Data in QGIS
-==========================================
+Joining Data in QGIS
+====================
 
 Getting Started
 ~~~~~~~~~~~~~~~
