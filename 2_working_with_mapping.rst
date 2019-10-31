@@ -1,4 +1,4 @@
-Guides for working with mapping
+Guides for mapping data
 ===================================
 
 .. toctree::
