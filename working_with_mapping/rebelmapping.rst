@@ -1,4 +1,5 @@
-Youth Justice Coalition
+Introduction to Mapping & QGIS
+==============================
 
 Friday, December 9, 2016, 10am - 3pm
 
@@ -9,7 +10,7 @@ What is Mapping?
 https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1DyOxCYw5KgPCdkMwhr_zfqcE-pVT-tdjpucchc2EQrw
 
 Our Views on Maps:
-==================
+------------------
 
 Mapping can be defined in so many different ways, there is no easy
 answer to these questions. In fact, your campaigns can determine how you
@@ -19,7 +20,7 @@ digital can help scope and develop innovative approaches to research and
 resistance. How then might your project utilize these tools?
 
 Your views on maps 
-===================
+------------------
 
 Question: "What is a map? What is in a map? How do you map?" Is this a map?
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -88,7 +89,7 @@ Question: Check out\ http://thetruesize.com/\ and try to see what is the implica
 ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Introduction to QGIS
-====================
+--------------------
 
 What is GIS?
 
@@ -297,7 +298,7 @@ You can now choose a file type and name, make sure to select “CSV”:
 .. _section-2:
 
 Data Management with Excel
-==========================
+--------------------------
 
 Lets go ahead and open another CSV file, you are welcome to open the
 neighborhoods.csv file too though.
@@ -411,7 +412,7 @@ Question: How many arrests were there on January 1st?
 '''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Back to QGIS for a moment!
-==========================
+--------------------------
 
 Sometimes you want to summarize data up, for example you want to see the
 number of arrests by zipcodes or neighborhoods. To do this, you need to
@@ -494,7 +495,7 @@ When you are done using QGIS, you can save your project as a QGIS file:
 |rm_image70|
 
 Extra Topics!
-=============
+-------------
 
 Georeferencing
 --------------
@@ -507,7 +508,7 @@ Pivot Tables
 http://www.excel-easy.com/data-analysis/pivot-tables.html
 
 Mapping Projects to Explore
-===========================
+---------------------------
 
 http://dsl.richmond.edu/panorama/
 
