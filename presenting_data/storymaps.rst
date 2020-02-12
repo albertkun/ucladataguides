@@ -8,10 +8,12 @@ Getting Started
 portal (see: Quick Visual Guide to Visualizing Data on LA Open Data
 Portal)*
 
-1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out this wonderful guide from Esri for creating StoryMaps: \ `Nine Steps to Great
+1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out these two wonderful guides from Esri for creating StoryMaps: (\ https://storymaps.arcgis.com/stories/cea22a609a1d4cccb8d54c650b595bc4\ ) \ `Nine Steps to Great
    Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
+1b. UCLA story map about story maps (\ https://arcg.is/5vCnb \)
 
+1c. Browse the ESRI Story Map Gallery for inspriation: (\https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories \)
 
 2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if you have an account..
 2b. If you do not have an ArcGIS account then create your ArcGIS Online Public Account here:
@@ -234,3 +236,10 @@ Publishing & Sharing your Story Map
 .. |sm_image17| image:: ../media/sm_image17.png
    :width: 6.5in
    :height: 4.97222in
+
+.. |agol_image1| image:: ../media/agol_image1.png
+   :width: 6.5in
+   :height: 3.73611in
+.. |agol_image2| image:: ../media/agol_image2.png
+   :width: 6.5in
+   :height: 3.73611in
