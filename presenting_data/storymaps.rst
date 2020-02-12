@@ -4,18 +4,16 @@ Visualizing Data using Esri StoryMaps
 Getting Started
 ~~~~~~~~~~~~~~~
 
-*Note: This tutorial uses data downloaded from Los Angeles Open Data
+*Note: Some part of this tutorial uses data downloaded from Los Angeles Open Data
 portal (see: Quick Visual Guide to Visualizing Data on LA Open Data
 Portal)*
 
-1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out these this wonderful guides from Esri for creating StoryMaps: \ `Nine Steps to Great
-   Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\ 
+1. StoryMaps are a powerful tool for combining spatial data and narrative. For an introduction to building narratives and a list of examples, check out these this wonderful guides from Esri for creating StoryMaps: \ `Nine Steps to Great Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\ 
 
 2. UCLA story map about story maps (\ https://arcg.is/5vCnb \)
-3. Browse the ESRI Story Map Gallery for inspriation: (\https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories \)
-
+3. Browse the ESRI Story Map Gallery for inspriation: (\ https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/stories \)
 4. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if you have an account..
-5 If you do not have an ArcGIS account then create your ArcGIS Online Public Account here:
+5. If you do not have an ArcGIS account then create your ArcGIS Online Public Account here:
    (\ https://www.arcgis.com/home/createaccount.html\ )
 
 ..
