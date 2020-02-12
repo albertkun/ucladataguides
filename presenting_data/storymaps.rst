@@ -12,10 +12,16 @@ Portal)*
    Storytelling <https://storymaps.arcgis.com/stories/429bc4eed5f145109e603c9711a33407>`__\
 
 
-2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if applicable.
 
-   a. *Note: Refer to Quick Visual Guide to Visualizing Data on ArcGIS
-      Online for directions on how to setup an Esri Public Account*
+2. Navigate to ArcGIS StoryMaps (\ https://storymaps.arcgis.com/stories\ ) and login if you have an account..
+2b. If you do not have an ArcGIS account then create your ArcGIS Online Public Account here:
+   (\ https://www.arcgis.com/home/createaccount.html\ )
+
+..
+
+   |agol_image1|
+
+   |agol_image2|
 
 3. Select **Create a new story** and begin adding images, videos and content.
 
